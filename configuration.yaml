@@ -57,7 +57,7 @@ tts:
 # Z-Wave dongle
 zwave:
   usb_path: /dev/ttyACM0
-  config_path: /srv/homeassistant/src/python-openzwave/openzwave/config
+# config_path: /srv/homeassistant/src/python-openzwave/openzwave/config
   debug: True
 
 group: !include groups.yaml
