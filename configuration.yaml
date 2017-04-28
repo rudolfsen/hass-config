@@ -65,15 +65,4 @@ verisure:
   username: !secret verisure_username
   password: !secret verisure_password
 
-# Brytere
-
-customize:
-  light.everspring_ad147_plugin_dimmer_module_3:
-    friendly_name: Bryter med dimmer
-
-customize:
-  switch.fibaro_system_fgwpef_wall_plug_gen5_2:
-    friendly_name: Bryter med strømmåler
-    
-
 group: !include groups.yaml
