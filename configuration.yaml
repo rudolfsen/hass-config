@@ -60,4 +60,9 @@ zwave:
   config_path: /srv/homeassistant/lib/python3.4/site-packages/python_openzwave/ozw_config
   debug: True
 
+verisure:
+  username: !secret verisure_username
+  password: !secret verisure_password
+  
+
 group: !include groups.yaml
