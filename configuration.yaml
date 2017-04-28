@@ -60,9 +60,18 @@ zwave:
   config_path: /srv/homeassistant/lib/python3.4/site-packages/python_openzwave/ozw_config
   debug: True
 
+# Bryter med strømmåler
+zwave.fibaro_system_fgwpef_wall_plug_gen5_2:
+  friendly_name: Bryter med strømmåler
+
+# Bryter med dimmer
+zwave.everspring_ad147_plugin_dimmer_module_3:
+  friendly_name: Bryter med dimmer
+
+# Verisure
 verisure:
   username: !secret verisure_username
   password: !secret verisure_password
-  
+
 
 group: !include groups.yaml
