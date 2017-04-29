@@ -4,7 +4,7 @@ default_view:
   entities:
     - group.livingroom
     - group.bedroom_master
-    - group.all_switches
+    - group.brytere
 
 livingroom:
   name: Stue
@@ -48,3 +48,17 @@ media:
   name: Media
   entities:
     - media_player.office
+
+brytere:
+  name: Brytere
+  entities:
+    - switch.garasje
+    - switch.kjeller_01
+    - switch.kjeller_02
+    - switch.kjeller__varmeovn
+    - switch.kontor
+    - switch.loft
+    - switch.loft__plantelys
+    - switch.lotta
+    - switch.magnus
+    - switch.mirjam
