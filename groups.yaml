@@ -28,8 +28,8 @@ verisure:
     - sensor.kjeller_stue_humidity
     - sensor.kjeller_stue_temperature
 
-
- media:
+media:
   view: yes
+  name: Media
   entities:
     - media_player.office
