@@ -25,8 +25,17 @@ verisure:
     - alarm_control_panel.alarm_1
     - lock.garasje
     - lock.hoveddr
+    - group.sensors
+
+sensors:
+  name: Sensorer
+  entities:
     - sensor.kjeller_stue_humidity
     - sensor.kjeller_stue_temperature
+    - sensor.kjkken_temperature
+    - sensor.loft_stuekontor_humidity
+    - sensor.loft_stuekontor_temperature
+    - sensor.soverom_humidity
 
 media:
   view: yes
