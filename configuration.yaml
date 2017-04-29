@@ -12,6 +12,8 @@ homeassistant:
   unit_system: metric
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Oslo
+  #Tilpasse
+  customize: !include customize.yaml
 
 # Show links to resources in log and frontend
 introduction:
