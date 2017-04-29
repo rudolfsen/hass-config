@@ -4,6 +4,7 @@ default_view:
   entities:
     - group.livingroom
     - group.bedroom_master
+    - group.all_switches
 
 livingroom:
   name: Stue
