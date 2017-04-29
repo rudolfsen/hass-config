@@ -22,7 +22,7 @@ verisure:
   view: yes
   name: Verisure
   entities:
-    - alarm_control_panel.alarm_1
+    - group.alarm
     - lock.garasje
     - lock.hoveddr
     - group.sensors
@@ -36,6 +36,11 @@ sensors:
     - sensor.loft_stuekontor_humidity
     - sensor.loft_stuekontor_temperature
     - sensor.soverom_humidity
+
+alarm:
+  name: Alarm
+  entities:
+    - alarm_control_panel.alarm_1
 
 media:
   view: yes
