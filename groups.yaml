@@ -6,6 +6,7 @@ default_view:
     - group.bedroom_master
 
 livingroom:
+  view: yes
   name: Stue
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
@@ -17,3 +18,14 @@ bedroom_master:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
+
+verisure
+  name: Verisure
+  entities:
+    - light.everspring_ad147_plugin_dimmer_module_level_4_0
+
+media:
+  view: yes
+  entities:
+    - group.all_switches
+    - group.all_locks
