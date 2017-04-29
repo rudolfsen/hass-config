@@ -1,2 +1,8 @@
 light.everspring_ad147_plugin_dimmer_module_level_4_0:
   friendly_name: Dimmer Mirjam
+
+light.everspring_ad147_plugin_dimmer_module_level_3_0:
+  friendly_name: Lampe på hylle
+
+switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
+  friendly_name: Lampe kjøkkenbank
