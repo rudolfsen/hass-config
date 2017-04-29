@@ -19,13 +19,12 @@ bedroom_master:
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
 
-verisure
+verisure:
   name: Verisure
-  entities:
-    - light.everspring_ad147_plugin_dimmer_module_level_4_0
-
-media:
-  view: yes
   entities:
     - group.all_switches
     - group.all_locks
+
+# media:
+#  view: yes
+#  entities:
