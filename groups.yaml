@@ -22,9 +22,14 @@ verisure:
   view: yes
   name: Verisure
   entities:
-    - group.all_switches
-    - group.all_locks
+    - alarm_control_panel.alarm_1
+    - lock.garasje
+    - lock.hoveddr
+    - sensor.kjeller_stue_humidity
+    - sensor.kjeller_stue_temperature
 
-# media:
-#  view: yes
-#  entities:
+
+ media:
+  view: yes
+  entities:
+    - media_player.office
