@@ -1,3 +1,10 @@
+default_view:
+  view: yes
+  icon: mdi:home 
+  entities:
+    - group.livingroom
+    - group.bedroom_master
+
 livingroom:
   name: Stue
   entities:
@@ -6,7 +13,7 @@ livingroom:
     - sensor.stue_humidity
     - sensor.stue_temperature
 
-master bed room:
+bedroom_master:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
