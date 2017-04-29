@@ -65,5 +65,4 @@ verisure:
   username: !secret verisure_username
   password: !secret verisure_password
 
-
 group: !include groups.yaml

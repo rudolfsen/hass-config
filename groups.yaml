@@ -1,0 +1,12 @@
+livingroom:
+  name: Stue
+  entities:
+    - light.everspring_ad147_plugin_dimmer_module_level_3_0
+    - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
+    - sensor.stue_humidity
+    - sensor.stue_temperature
+
+master bed room:
+  name: Soverom
+  entities:
+    - light.everspring_ad147_plugin_dimmer_module_level_3_0
