@@ -59,6 +59,7 @@ media:
     - media_player.kjeller
     - media_player.spotify
     - media_player.tv_kjeller
+    - media_player.samsung_tv_remote
     - remote.loftet
   
 
