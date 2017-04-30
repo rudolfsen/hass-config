@@ -19,6 +19,7 @@ scener:
   name: Scenes
   entities:
       - scene.dempet_lys
+      - scene.fullt_lys
 
 bedroom_master:
   name: Soverom
