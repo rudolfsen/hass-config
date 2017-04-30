@@ -18,6 +18,7 @@ bedroom_master:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
+    - light.everspring_ad146_in_wall_dimmer_module_level_5_0
 
 verisure:
   view: yes
