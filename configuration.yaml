@@ -77,4 +77,10 @@ media_player:
     host: 192.168.86.230
     name: TV kjeller
 
+# Spotify
+media_player:
+  - platform: spotify
+    client_id: !secret spotify_id
+    client_secret: !secret spotify_secret
+
 group: !include groups.yaml
