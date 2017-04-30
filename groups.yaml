@@ -5,6 +5,7 @@ default_view:
     - group.livingroom
     - group.bedroom_master
     - group.brytere
+    - group.scener
 
 livingroom:
   name: Stue
@@ -14,13 +15,17 @@ livingroom:
     - sensor.stue_humidity
     - sensor.stue_temperature
 
+scener:
+  name: Scenes
+  entities:
+      - scene.dempet_lys
+
 bedroom_master:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
     - light.everspring_ad147_plugin_dimmer_module_level_7_0
     - light.fibaro_system_fgd212_dimmer_2_level_6_0
-    - scene.dempet_lys
 
 verisure:
   view: yes
