@@ -59,8 +59,9 @@ media:
     - media_player.office
     - media_player.kjeller
     - media_player.spotify
-    - media_player.tv_kjeller
+    - media_player.tv__kjellerstue
     - media_player.samsung_tv_remote
+    - media_player.tv__stue
     - remote.loftet
   
 
