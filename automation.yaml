@@ -18,11 +18,4 @@
       data_template:
         entity_id: remote.stue 
         command: Pause
-        device: >
-          {% if is_state("remote.stue", "Watch TV") %}
-            30979559
-          {% elif is_state("remote.stue", "Watch Apple TV 2") %}
-            32445691
-          {% elif is_state("remote.stue", "Watch Apple TV") %}
-            32445691            
-          {% endif %}
+        device: 32445691
