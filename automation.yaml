@@ -16,16 +16,13 @@
   action:
       service: remote.send_command
       data_template:
-      # using a data template to have if brances for relavant device
-        # Always the same entity_id - the harmony hub
         entity_id: remote.stue 
-        # Always the same command - the Pause key
         command: Pause
-        # select device based upon the activity being undertaken.
         device: >
-          {% if is_state("sensor.stue", "Watch TV") %}{% raw %}
+          {% if is_state("remote.stue", "Watch TV") %}
             30979559
-          # when in WATCH APPLE TV activity, the pause key relates to an Apple TV, which is device 23002316
-          {% raw %}{% elif is_state("sensor.stue", "WATCH APPLE TV") %}
+          {% elif is_state("remote.stue", "Watch Apple TV 2") %}
             32445691
+          {% elif is_state("remote.stue", "Watch Apple TV") %}
+            32445691            
           {% endif %}
