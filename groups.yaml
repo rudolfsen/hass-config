@@ -56,6 +56,11 @@ media:
   name: Media
   entities:
     - media_player.office
+    - media_player.kjeller
+    - media_player.spotify
+    - media_player.tv_kjeller
+    - remote.loftet
+  
 
 brytere:
   name: Brytere
