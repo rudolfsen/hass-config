@@ -83,4 +83,10 @@ media_player:
     client_id: !secret spotify_id
     client_secret: !secret spotify_secret
 
+# Harmony fjernkontroll
+remote:
+  - platform: harmony
+    name: Loftet
+    host: 192.168.86.71
+
 group: !include groups.yaml
