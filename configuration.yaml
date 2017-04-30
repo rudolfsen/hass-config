@@ -48,6 +48,7 @@ logbook:
 # Includes
 scene: !include_dir_list scenes/
 automation: !include automation.yaml
+group: !include groups.yaml
 # switch: !include switches.yaml
 
 # Track the sun
@@ -86,7 +87,7 @@ media_player:
     host: 192.168.86.29
     mac: 0c:89:10:ce:be:b4
   - platform: cast
-  
+
 # Remotes
 remote:
   - platform: harmony
@@ -95,5 +96,3 @@ remote:
   - platform: harmony
     name: Stue
     host: 192.168.86.31
-
-group: !include groups.yaml

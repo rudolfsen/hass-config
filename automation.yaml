@@ -25,7 +25,7 @@
   trigger:
     - platform: state
       entity_id:  lock.hoveddr
-      to: 'locked'
+      to: 'unlocked'
   action:
       service: remote.send_command
       data_template:
