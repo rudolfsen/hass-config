@@ -45,6 +45,9 @@ history:
 # View all events in a logbook
 logbook:
 
+# Includes
+scene: !include_dir_list scenes/
+
 # Track the sun
 sun:
 
