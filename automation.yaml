@@ -6,3 +6,26 @@
   action:
     - service: scene.turn_on
       entity_id: scene.fullt_lys
+
+
+- alias: Harmony Pause contextual for activity
+  trigger:
+    - platform: state
+      entity_id:  lock.hoveddr
+      to: 'locked'
+  action:
+      service: remote.send_command
+      data_template:
+      # using a data template to have if brances for relavant device
+        # Always the same entity_id - the harmony hub
+        entity_id: remote.stue 
+        # Always the same command - the Pause key
+        command: Pause
+        # select device based upon the activity being undertaken.
+        device: >
+          {% if is_state("sensor.stue", "Watch TV") %}{% raw %}
+            30979559
+          # when in WATCH APPLE TV activity, the pause key relates to an Apple TV, which is device 23002316
+          {% raw %}{% elif is_state("sensor.stue", "WATCH APPLE TV") %}
+            32445691
+          {% endif %}
