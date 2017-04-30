@@ -63,6 +63,7 @@ media:
     - media_player.samsung_tv_remote
     - media_player.tv__stue
     - remote.loftet
+    - remote.stue
   
 
 brytere:

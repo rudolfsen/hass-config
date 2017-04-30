@@ -48,6 +48,7 @@ logbook:
 # Includes
 scene: !include_dir_list scenes/
 automation: !include automation.yaml
+switch: !include switches.yaml
 
 # Track the sun
 sun:
