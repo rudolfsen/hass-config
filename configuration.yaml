@@ -71,22 +71,19 @@ verisure:
   username: !secret verisure_username
   password: !secret verisure_password
 
-# TV - kjellerstue
+# Media
 media_player:
-  platform: braviatv
-  host: 192.168.86.230
-  name: TV kjeller
+  - platform: braviatv
+    host: 192.168.86.230
+    name: TV kjeller
+  - platform: spotify
+    client_id: !secret spotify_id
+    client_secret: !secret spotify_secret
 
-# Spotify
-media_player:
-  platform: spotify
-  client_id: !secret spotify_id
-  client_secret: !secret spotify_secret
-
-# Harmony fjernkontroll
+# Remotes
 remote:
-  platform: harmony
-  name: Loftet
-  host: 192.168.86.71
+  - platform: harmony
+    name: Loftet
+    host: 192.168.86.71
 
 group: !include groups.yaml
