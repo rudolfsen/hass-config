@@ -1,8 +1,8 @@
 - alias: Dempet lys
   trigger:
-    - platform: event
-      event_type: button_pressed
-      event_data: {"state": "group off", "entity_id": "switch.nexa_remote"}
+    - platform: state
+      entity_id:  lock.hoveddr
+      to: 'locked'
   action:
     - service: scene.turn_on
-      entity_id: scene.dempet_lys
+      entity_id: scene.fullt_lys
