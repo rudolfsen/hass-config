@@ -1,4 +1,4 @@
-- alias: Skru av TV -> Skru på lys
+- alias: Skru av TV, Skru på lys
     trigger:
       platform: state
       entity_id: remote.loftet
@@ -9,7 +9,7 @@
     - service: scene.turn_on
       entity_id: scene.fullt_lys
 
-- alias: AppleTV - Pause
+- alias: AppleTV, Pause
   trigger:
     - platform: state
       entity_id:  lock.hoveddr
@@ -21,7 +21,7 @@
         command: Pause
         device: 32445691
 
-- alias: AppleTV - Play
+- alias: AppleTV, Play
   trigger:
     - platform: state
       entity_id:  lock.hoveddr
