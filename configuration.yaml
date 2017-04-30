@@ -47,6 +47,7 @@ logbook:
 
 # Includes
 scene: !include_dir_list scenes/
+automation: !include automation.yaml
 
 # Track the sun
 sun:
@@ -69,5 +70,11 @@ zwave:
 verisure:
   username: !secret verisure_username
   password: !secret verisure_password
+
+# TV - kjellerstue
+media_player:
+  - platform: braviatv
+    host: 192.168.86.230
+    name: TV kjeller
 
 group: !include groups.yaml
