@@ -1,5 +1,8 @@
 light.everspring_ad147_plugin_dimmer_module_level_4_0:
-  friendly_name: Dimmer Mirjam
+  friendly_name: Leselys - Mirjam
+
+light.everspring_ad147_plugin_dimmer_module_level_7_0:
+  friendly_name: Leselys - Magnus
 
 light.everspring_ad147_plugin_dimmer_module_level_3_0:
   friendly_name: Lampe på hylle
