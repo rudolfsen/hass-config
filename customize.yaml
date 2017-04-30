@@ -8,4 +8,4 @@ switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
   friendly_name: Lampe kjøkkenbenk
 
 light.fibaro_system_fgd212_dimmer_2_level_6_0:
-  friendly_name: Garderobe
+  friendly_name: Taklampe
