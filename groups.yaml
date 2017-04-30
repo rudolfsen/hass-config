@@ -6,6 +6,7 @@ default_view:
     - group.bedroom_master
     - group.brytere
     - group.scener
+    - automation.dempet_lys
 
 livingroom:
   name: Stue
