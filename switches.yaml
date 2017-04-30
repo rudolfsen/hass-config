@@ -3,8 +3,14 @@
       tv:
         value_template: "{% if is_state('remote.stue', 'on') %}on{% else %}off{% endif %}"
         turn_on:
-          service: remote.turn_on
-          entity_id: remote.stue
+          service: remote.send_command
+            data_template:
+            entity_id: remote.stue 
+            command: Pause
+            device: 32445691
         turn_off:
-          service: remote.turn_off
-          entity_id: remote.stue
+          service: remote.send_command
+            data_template:
+            entity_id: remote.stue 
+            command: Play
+            device: 32445691
