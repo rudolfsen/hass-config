@@ -73,14 +73,16 @@ verisure:
 
 # Media
 media_player:
-  - platform: braviatv
-    host: 192.168.86.230
-    name: TV kjeller
   - platform: spotify
     client_id: !secret spotify_id
     client_secret: !secret spotify_secret
+  - platform: braviatv
+    host: 192.168.86.230
+    name: TV - kjellerstue
   - platform: samsungtv
     host: 192.168.86.29
+    mac: 0c:89:10:ce:be:b4
+    name: TV - stue
 
 # Remotes
 remote:
