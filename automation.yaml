@@ -1,14 +1,27 @@
-- alias: Dempet lys
+- alias: Skru av TV -> Skru på lys
+    trigger:
+      platform: state
+      entity_id: remote.loftet
+    condition:
+      condition: template
+      value_template: '{{ trigger.to_state.attributes.current_activity == "PowerOff" }}'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.fullt_lys
+
+- alias: AppleTV - Pause
   trigger:
     - platform: state
       entity_id:  lock.hoveddr
       to: 'locked'
   action:
-    - service: scene.turn_on
-      entity_id: scene.fullt_lys
+      service: remote.send_command
+      data_template:
+        entity_id: remote.stue
+        command: Pause
+        device: 32445691
 
-
-- alias: Harmony Pause contextual for activity
+- alias: AppleTV - Play
   trigger:
     - platform: state
       entity_id:  lock.hoveddr
@@ -17,5 +30,7 @@
       service: remote.send_command
       data_template:
         entity_id: remote.stue 
-        command: Pause
+        command: Play
         device: 32445691
+
+
