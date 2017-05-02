@@ -14,6 +14,9 @@ livingroom:
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
     - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
+    - light.tradfri_bulb_e27_ws_opal_980lm
+    - light.tradfri_bulb_e27_ws_opal_980lm_2
+    - light.tradfri_bulb_e27_ws_opal_980lm_3
     - sensor.stue_humidity
     - sensor.stue_temperature
 
