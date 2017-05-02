@@ -21,6 +21,8 @@ garasje:
   name: Garasje
   entities:
     - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+    - sensor.everspring_sp103_pir_motion_sensor_alarm_level_9_1
+    - sensor.everspring_sp103_pir_motion_sensor_alarm_type_9_0
 
 scener:
   name: Scenes
