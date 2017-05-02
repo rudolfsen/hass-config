@@ -12,3 +12,9 @@ switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_6_0:
   friendly_name: Taklampe
+
+binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0:
+  friendly_name: Bevegelse garasje
+
+switch.everspring_an180_plugin_onoff_module_switch_8_0:
+  friendly_name: Lys garasje

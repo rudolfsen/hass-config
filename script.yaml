@@ -1,0 +1,6 @@
+appletv:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.loftet
+      data:
+        activity: "23573224"
