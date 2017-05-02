@@ -16,6 +16,7 @@ livingroom:
     - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
     - sensor.stue_humidity
     - sensor.stue_temperature
+    - switch.everspring_an180_plugin_onoff_module_switch_8_0
 
 garasje:
   name: Garasje
@@ -23,6 +24,7 @@ garasje:
     - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
     - sensor.everspring_sp103_pir_motion_sensor_alarm_level_9_1
     - sensor.everspring_sp103_pir_motion_sensor_alarm_type_9_0
+    - zwave.everspring_sp103_pir_motion_sensor_9
 
 scener:
   name: Scenes
