@@ -18,3 +18,12 @@ binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0:
 
 switch.everspring_an180_plugin_onoff_module_switch_8_0:
   friendly_name: Lys garasje
+
+light.tradfri_bulb_e27_ws_opal_980lm:
+  friendly_name: Stue 1
+
+light.tradfri_bulb_e27_ws_opal_980lm_2:
+  friendly_name: Stue 2
+
+light.tradfri_bulb_e27_ws_opal_980lm_3:
+  friendly_name: Stue 3

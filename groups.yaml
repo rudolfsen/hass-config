@@ -37,6 +37,8 @@ scener:
       - scene.fullt_lys
       - scene.garasje_lys
       - scene.garasje_av
+      - scene.stue_dempet_lys
+      - scene.stue_fullt_lys
 
 bedroom_master:
   name: Soverom
