@@ -1,27 +1,3 @@
-- alias: Pause
-  trigger:
-    - platform: state
-      entity_id:  lock.hoveddr
-      to: 'locked'
-  action:
-      service: remote.send_command
-      data_template:
-        entity_id: remote.stue
-        command: Pause
-        device: 32445691
-
-- alias: Play
-  trigger:
-    - platform: state
-      entity_id:  lock.hoveddr
-      to: 'unlocked'
-  action:
-      service: remote.send_command
-      data_template:
-        entity_id: remote.stue 
-        command: Play
-        device: 32445691
-
 - alias: Bevegelse
   
   trigger:
