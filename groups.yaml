@@ -6,6 +6,7 @@ default_view:
     - group.bedroom_master
     - group.brytere
     - group.scener
+    - group.garasje
     - automation.dempet_lys
 
 livingroom:
@@ -15,6 +16,11 @@ livingroom:
     - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
     - sensor.stue_humidity
     - sensor.stue_temperature
+
+garasje:
+  name: Garasje
+  entities:
+    - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
 
 scener:
   name: Scenes
