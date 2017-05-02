@@ -32,6 +32,8 @@ scener:
   entities:
       - scene.dempet_lys
       - scene.fullt_lys
+      - scene.garasje_lys
+      - scene.garasje_av
 
 bedroom_master:
   name: Soverom
