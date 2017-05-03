@@ -97,6 +97,6 @@ remote:
     name: Stue
     host: 192.168.86.31
 
-# tradfri:
-#  host: 192.168.86.238
-#  api_key: !secret tradfri_api
+tradfri:
+  - host: 192.168.86.238
+    api_key: !secret ikea_key
