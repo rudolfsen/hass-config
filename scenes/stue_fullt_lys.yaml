@@ -3,15 +3,15 @@ entities:
   light.tradfri_bulb_e27_ws_opal_980lm:
     state: on
     brightness: 254
-    color_temp: 450
+    color_temp: 280
   light.tradfri_bulb_e27_ws_opal_980lm_2:
     state: on
     brightness: 254
-    color_temp: 450    
+    color_temp: 280    
   light.tradfri_bulb_e27_ws_opal_980lm_3:
     state: on
     brightness: 254
-    color_temp: 450
+    color_temp: 280
   light.everspring_ad147_plugin_dimmer_module_level_3_0:
     state: on
     brightness: 254
