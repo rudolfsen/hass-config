@@ -1,4 +1,8 @@
 name: Garasje av
 entities:
-  switch.everspring_an180_plugin_onoff_module_switch_8_0:
+  light.tradfri_bulb_e27_opal_1000lm:
+    state: off
+  light.tradfri_bulb_e27_opal_1000lm_2:
+    state: off
+  light.tradfri_bulb_e27_opal_1000lm_3:
     state: off
