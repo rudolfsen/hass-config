@@ -25,9 +25,6 @@ garasje:
   name: Garasje
   entities:
     - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
-    - sensor.everspring_sp103_pir_motion_sensor_alarm_level_9_1
-    - sensor.everspring_sp103_pir_motion_sensor_alarm_type_9_0
-    - zwave.everspring_sp103_pir_motion_sensor_9
     - switch.everspring_an180_plugin_onoff_module_switch_8_0
     - light.tradfri_bulb_e27_opal_1000lm
     - light.tradfri_bulb_e27_opal_1000lm_2
