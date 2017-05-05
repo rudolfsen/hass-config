@@ -1,0 +1,11 @@
+name: Garasje
+  entities:
+    light.tradfri_bulb_e27_opal_1000lm:
+      state: on
+      brightness: 254
+    light.tradfri_bulb_e27_opal_1000lm_2:
+      state: on
+      brightness: 254
+    light.tradfri_bulb_e27_opal_1000lm_3:
+      state: on
+      brightness: 254
