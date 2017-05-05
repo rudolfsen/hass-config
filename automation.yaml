@@ -6,4 +6,4 @@
       to: 'on'
   action:
     - service: scene.turn_on
-      entity_id: scene.garasje-on
+      entity_id: scene.garasje
