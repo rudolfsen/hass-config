@@ -1,4 +1,4 @@
-name: Stue dempet lys 
+name: Stue kveld
 entities:
   light.tradfri_bulb_e27_ws_opal_980lm:
     state: on

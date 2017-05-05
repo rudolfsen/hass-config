@@ -33,7 +33,7 @@ scener:
   entities:
       - scene.garasje_paa
       - scene.garasje_av
-      - scene.stue_dempet     
+      - scene.stue_kveld     
       
 bedroom_master:
   name: Soverom
