@@ -7,8 +7,14 @@
       to: 'on'
 
   action:
-    service: scene.turn_on
-    entity_id: scene.garasje_lys
+    service: homeassistant.turn_off
+    entity_id:
+      - light.tradfri_bulb_e27_opal_1000lm
+      - light.tradfri_bulb_e27_opal_1000lm_2
+      - light.tradfri_bulb_e27_opal_1000lm_3
+
+  data:
+      brightness: 254
 
 - alias: Ingen-bevegelse
 
@@ -19,5 +25,11 @@
       to: 'off'
 
   action:
-    service: scene.turn_on
-    entity_id: scene.garasje_av
+    service: homeassistant.turn_off
+    entity_id:
+      - light.tradfri_bulb_e27_opal_1000lm
+      - light.tradfri_bulb_e27_opal_1000lm_2
+      - light.tradfri_bulb_e27_opal_1000lm_3
+
+  data:
+      brightness: 0

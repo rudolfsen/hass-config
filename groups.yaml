@@ -7,7 +7,6 @@ default_view:
     - group.brytere
     - group.scener
     - group.garasje
-    - automation.dempet_lys
 
 livingroom:
   name: Stue
