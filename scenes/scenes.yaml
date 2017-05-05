@@ -1,0 +1,85 @@
+name: garasje-on
+entities:
+  light.tradfri_bulb_e27_opal_1000lm:
+    state: on
+    brightness: 254
+  light.tradfri_bulb_e27_opal_1000lm_2:
+    state: on
+    brightness: 254
+  light.tradfri_bulb_e27_opal_1000lm_3:
+    state: on
+    brightness: 254
+
+name: garasje-off
+entities:
+  light.tradfri_bulb_e27_opal_1000lm:
+    state: off
+  light.tradfri_bulb_e27_opal_1000lm_2:
+    state: off
+  light.tradfri_bulb_e27_opal_1000lm_3:
+    state: off
+
+name: stue-full
+entities:
+  light.tradfri_bulb_e27_ws_opal_980lm:
+    state: on
+    brightness: 254
+    color_temp: 300
+  light.tradfri_bulb_e27_ws_opal_980lm_2:
+    state: on
+    brightness: 254
+    color_temp: 300    
+  light.tradfri_bulb_e27_ws_opal_980lm_3:
+    state: on
+    brightness: 254
+    color_temp: 300
+  light.everspring_ad147_plugin_dimmer_module_level_3_0:
+    state: on
+    brightness: 254
+  switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
+    state: on
+
+name: stue-evening 
+entities:
+  light.tradfri_bulb_e27_ws_opal_980lm:
+    state: on
+    brightness: 10
+    color_temp: 300
+  light.tradfri_bulb_e27_ws_opal_980lm_2:
+    state: on
+    brightness: 10
+    color_temp: 300    
+  light.tradfri_bulb_e27_ws_opal_980lm_3:
+    state: on
+    brightness: 10
+    color_temp: 300    
+  light.everspring_ad147_plugin_dimmer_module_level_3_0:
+    state: on
+    brightness: 10
+  switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
+    state: off
+
+name: soverom-low
+entities:
+  light.everspring_ad147_plugin_dimmer_module_level_4_0:
+    state: on
+    brightness: 10
+  light.everspring_ad147_plugin_dimmer_module_level_7_0:
+    state: on
+    brightness: 10
+  light.fibaro_system_fgd212_dimmer_2_level_6_0:
+    state: on
+    brightness: 10
+
+name: soverom-full
+entities:
+  light.everspring_ad147_plugin_dimmer_module_level_4_0:
+    state: on
+    brightness: 255
+  light.everspring_ad147_plugin_dimmer_module_level_7_0:
+    state: on
+    brightness: 255
+  light.fibaro_system_fgd212_dimmer_2_level_6_0:
+    state: on
+    brightness: 255
+
