@@ -53,6 +53,8 @@ automation: !include automation.yaml
 group: !include groups.yaml
 # switch: !include switches.yaml
 
+#scene:
+
 # Track the sun
 sun:
 
