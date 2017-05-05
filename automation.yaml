@@ -5,8 +5,8 @@
       from: 'off'
       to: 'on'
   action:
-    service: scene.turn_on
-    entity_id: scene.garasje_lys
+    - service: scene.turn_on
+      entity_id: scene.garasje_lys
 
 - alias: Ingen-bevegelse
   trigger:
@@ -15,5 +15,5 @@
       from: 'on'
       to: 'off'
   action:
-    service: scene.turn_on
-    entity_id: scene.garasje_av
+    - service: scene.turn_on
+      entity_id: scene.garasje_av
