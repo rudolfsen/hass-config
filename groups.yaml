@@ -19,7 +19,6 @@ livingroom:
     - sensor.stue_humidity
     - sensor.stue_temperature
 
-
 garasje:
   name: Garasje
   entities:
@@ -79,7 +78,6 @@ media:
     - remote.loftet
     - remote.stue
   
-
 brytere:
   name: Brytere
   entities:

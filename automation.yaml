@@ -5,12 +5,11 @@
       entity_id:  binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
       from: 'off'
       to: 'on'
-
   action:
-    service: scene.turn_on
-    entity_id: scene.garasje
+    - service: scene.turn_on
+      entity_id: scene.garasje
 
-- alias: Ingen-bevegelse
+- alias: Ingen bevegelse
 
   trigger:
     - platform: state
@@ -19,5 +18,5 @@
       to: 'off'
 
   action:
-    service: scene.turn_on
-    entity_id: scene.garasje_av
+    - service: scene.turn_on
+      entity_id: scene.garasje_av
