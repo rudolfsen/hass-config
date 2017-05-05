@@ -31,8 +31,9 @@ garasje:
 scener:
   name: Scenes
   entities:
-      - scene.garasje
+      - scene.garasje_paa
       - scene.garasje_av
+      - stue_kveld
 
 bedroom_master:
   name: Soverom
