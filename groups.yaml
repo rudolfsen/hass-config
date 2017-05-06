@@ -9,7 +9,6 @@ default_view:
     - group.garasje
 
 livingroom:
-  view: yes
   name: Stue
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
