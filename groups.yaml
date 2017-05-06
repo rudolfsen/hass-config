@@ -15,6 +15,7 @@ livingroom:
     - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
     - light.fibaro_system_fgd212_dimmer_2_level_10_0
     - light.fibaro_system_fgd212_dimmer_2_level_11_0
+    - light.fibaro_system_fgd212_dimmer_2_level_12_0
     - sensor.stue_humidity
     - sensor.stue_temperature
 
