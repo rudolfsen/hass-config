@@ -39,7 +39,14 @@ garasje:
     - light.tradfri_bulb_e27_opal_1000lm
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
-      
+
+ikea:
+  name: IKEA
+  entities:
+    - light.tradfri_bulb_e27_opal_1000lm
+    - light.tradfri_bulb_e27_opal_1000lm_2
+    - light.tradfri_bulb_e27_opal_1000lm_3    
+
 bedroom_master:
   name: Soverom
   entities:
