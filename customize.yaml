@@ -36,3 +36,12 @@ light.tradfri_bulb_e27_opal_1000lm_2:
 
 light.tradfri_bulb_e27_opal_1000lm_3:
   friendly_name: Garasje 3
+
+light.fibaro_system_fgd212_dimmer_2_level_12_0:
+  friendly_name: Stue downlights
+
+light.fibaro_system_fgd212_dimmer_2_level_11_0:
+  friendly_name: Stue spisebord
+
+light.fibaro_system_fgd212_dimmer_2_level_10_0:
+  friendly_name: Stue fjærlampe
