@@ -1,0 +1,6 @@
+name: Alt av
+entities:
+  group.all_switches:
+    state: off
+  group.all_lights:
+    state: off

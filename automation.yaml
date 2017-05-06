@@ -17,3 +17,13 @@
   action:
     - service: scene.turn_on
       entity_id: scene.garasje_av
+
+- alias: Alarm
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm_1
+      from: 'disarmed'
+      to: 'armed_home'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.alt_av

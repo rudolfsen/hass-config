@@ -29,6 +29,7 @@ scener:
       - scene.stue_kveld
       - scene.stue_dag
       - scene.stue_film  
+      - scene.alt_av
 
 garasje:
   name: Garasje
