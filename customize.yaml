@@ -45,3 +45,6 @@ light.fibaro_system_fgd212_dimmer_2_level_11_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
   friendly_name: Stue fjærlampe
+
+light.fibaro_system_fgd212_dimmer_2_level_13_0:
+  friendly_name: Kjøkken downlights
