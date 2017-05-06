@@ -48,3 +48,6 @@ light.fibaro_system_fgd212_dimmer_2_level_10_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_13_0:
   friendly_name: Kjøkken downlights
+
+light.fibaro_system_fgd212_dimmer_2_level_14_0:
+  friendly_name: Gang downlights
