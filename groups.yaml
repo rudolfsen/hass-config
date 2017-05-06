@@ -9,6 +9,7 @@ default_view:
     - group.garasje
 
 livingroom:
+  view: yes
   name: Stue
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
@@ -21,6 +22,15 @@ livingroom:
     - sensor.stue_humidity
     - sensor.stue_temperature
 
+scener:
+  name: Scenes
+  entities:
+      - scene.garasje_paa
+      - scene.garasje_av
+      - scene.stue_kveld
+      - scene.stue_dag
+      - scene.stue_film  
+
 garasje:
   name: Garasje
   entities:
@@ -28,15 +38,7 @@ garasje:
     - switch.everspring_an180_plugin_onoff_module_switch_8_0
     - light.tradfri_bulb_e27_opal_1000lm
     - light.tradfri_bulb_e27_opal_1000lm_2
-    - light.tradfri_bulb_e27_opal_1000lm_3
-
-scener:
-  name: Scenes
-  entities:
-      - scene.garasje_paa
-      - scene.garasje_av
-      - scene.stue_kveld
-      - scene.stue_dag      
+    - light.tradfri_bulb_e27_opal_1000lm_3    
       
 bedroom_master:
   name: Soverom
