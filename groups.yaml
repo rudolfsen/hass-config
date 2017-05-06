@@ -41,6 +41,7 @@ garasje:
     - light.tradfri_bulb_e27_opal_1000lm_3    
 
 ikea:
+  view: yes
   name: IKEA
   entities:
     - light.tradfri_bulb_e27_opal_1000lm
