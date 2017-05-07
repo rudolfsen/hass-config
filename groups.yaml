@@ -57,8 +57,8 @@ verisure:
 stuelys:
   name: Stue
   entities:
+    - sensor.stue_temperature  
     - sensor.stue_humidity
-    - sensor.stue_temperature
     - scene.stue_kveld
     - scene.stue_lys
     - scene.stue_film
@@ -111,6 +111,17 @@ sensors:
     - sensor.loft_stuekontor_humidity
     - sensor.loft_stuekontor_temperature
     - sensor.soverom_humidity
+    - sensor.soverom_kjeller_humidity
+    - sensor.soverom_kjeller_temperature
+    - sensor.soverom_temperature
+    - sensor.soverom_voksen_humidity
+    - sensor.soverom_voksen_temperature
+    - sensor.stue_humidity
+    - sensor.stue_temperature
+    - sensor.utleie_soverom_humidity
+    - sensor.utleie_soverom_temperature
+    - sensor.varmepumpe_temperature
+    - sensor.yr_symbol
 
 alarm:
   name: Alarm
