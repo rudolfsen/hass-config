@@ -4,7 +4,6 @@ default_view:
   entities:
     - group.stue
     - group.soverom_1
-    - group.brytere
     - group.scener
     - group.garasje
 
@@ -22,7 +21,7 @@ stue:
     - sensor.stue_temperature
 
 scener:
-  name: Lyssetting
+  name: Scenes
   entities:
       - scene.garasje_on
       - scene.garasje_off
