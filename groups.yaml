@@ -27,8 +27,9 @@ lyssetting:
     - scene.garasje_av
     - scene.stue_kveld
     - scene.stue_lys
-    - scene.stue_film  
-    - scene.alle_lys
+    - scene.stue_film
+    - scene.soverom_kveld  
+    - scene.soverom_av
 
 garasje:
   name: Garasje

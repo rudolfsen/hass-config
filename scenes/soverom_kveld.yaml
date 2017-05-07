@@ -1,0 +1,11 @@
+name: Soverom kveld
+entities:
+  light.everspring_ad147_plugin_dimmer_module_level_4_0:
+    state: on
+    brightness: 20
+  light.everspring_ad147_plugin_dimmer_module_level_7_0:
+    state: on
+    brightness: 20
+  light.fibaro_system_fgd212_dimmer_2_level_6_0:
+    state: on
+    brightness: 20

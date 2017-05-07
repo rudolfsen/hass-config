@@ -1,6 +1,28 @@
-name: Lys av
+name: Alle lys
 entities:
-  group.all_switches:
+  light.tradfri_bulb_e27_opal_1000lm:
     state: off
-  group.all_lights:
+  light.tradfri_bulb_e27_opal_1000lm_2:
+    state: off
+  light.tradfri_bulb_e27_opal_1000lm_3:
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_12_0:
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_11_0:
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_10_0:
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_13_0:
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_14_0:
+    state: off
+  light.everspring_ad147_plugin_dimmer_module_level_3_0:
+    state: off
+  switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
+    state: off
+  light.everspring_ad147_plugin_dimmer_module_level_4_0:
+    state: off
+  light.everspring_ad147_plugin_dimmer_module_level_7_0:
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_6_0:
     state: off
