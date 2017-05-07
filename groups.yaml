@@ -4,8 +4,8 @@ default_view:
   entities:
     - group.stue
     - group.soverom_1
-    - group.scener
     - group.garasje
+    - group.lyssetting
 
 stue:
   name: Stue
@@ -20,8 +20,8 @@ stue:
     - sensor.stue_humidity
     - sensor.stue_temperature
 
-scener:
-  name: Scenes
+lyssetting:
+  name: Lyssetting
   entities:
     - scene.garasje_on
     - scene.garasje_off

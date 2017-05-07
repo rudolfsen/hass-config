@@ -45,4 +45,3 @@
   action:
     - service: scene.turn_on
       entity_id: scene.stue_evening
-    
