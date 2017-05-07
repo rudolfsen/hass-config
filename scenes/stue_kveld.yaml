@@ -20,3 +20,5 @@ entities:
     brightness: 40
   switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
     state: on
+  switch.everspring_an180_plugin_onoff_module_switch_8_0:
+    state: on

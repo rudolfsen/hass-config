@@ -17,6 +17,7 @@ stue:
     - light.fibaro_system_fgd212_dimmer_2_level_12_0
     - light.fibaro_system_fgd212_dimmer_2_level_13_0
     - light.fibaro_system_fgd212_dimmer_2_level_14_0
+    - switch.everspring_an180_plugin_onoff_module_switch_8_0
     - sensor.stue_humidity
     - sensor.stue_temperature
 
@@ -37,7 +38,6 @@ garasje:
   name: Garasje
   entities:
     - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
-    - switch.everspring_an180_plugin_onoff_module_switch_8_0
     - light.tradfri_bulb_e27_opal_1000lm
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
