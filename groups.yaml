@@ -2,13 +2,13 @@ default_view:
   view: yes
   icon: mdi:home 
   entities:
-    - group.livingroom
-    - group.bedroom_master
+    - group.stue
+    - group.soverom_1
     - group.brytere
     - group.scener
     - group.garasje
 
-livingroom:
+stue:
   name: Stue
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
@@ -22,7 +22,7 @@ livingroom:
     - sensor.stue_temperature
 
 scener:
-  name: Scener
+  name: Lyssetting
   entities:
       - scene.garasje_on
       - scene.garasje_off
@@ -48,7 +48,7 @@ ikea:
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
 
-bedroom_master:
+soverom_1:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
