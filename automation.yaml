@@ -34,8 +34,8 @@
       event: sunrise
       offset: '00:00:00'
   action:
-    service: scene.turn_on
-    entity_id: scene.stue_all_on
+    - service: scene.turn_on
+      entity_id: scene.stue_all_on
 
 - alias: Demp lys kveld
   trigger:
@@ -43,5 +43,6 @@
       event: sunset
       offset: '+01:00:00'
   action:
-    service: scene.turn_on
-    entity_id: scene.stue_evening
+    - service: scene.turn_on
+      entity_id: scene.stue_evening
+    
