@@ -1,4 +1,4 @@
-name: Stue film
+name: Stue filmbelysning
 entities:
   light.fibaro_system_fgd212_dimmer_2_level_12_0:
     state: on

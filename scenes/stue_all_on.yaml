@@ -1,22 +1,22 @@
-name: Stue kveld
+name: Stue fullt lys
 entities:
   light.fibaro_system_fgd212_dimmer_2_level_12_0:
     state: on
-    brightness: 40
+    brightness: 255
   light.fibaro_system_fgd212_dimmer_2_level_11_0:
     state: on
-    brightness: 40
+    brightness: 255
   light.fibaro_system_fgd212_dimmer_2_level_10_0:
     state: on
-    brightness: 40
+    brightness: 255
   light.fibaro_system_fgd212_dimmer_2_level_13_0:
     state: on
-    brightness: 40
+    brightness: 255
   light.fibaro_system_fgd212_dimmer_2_level_14_0:
     state: on
-    brightness: 40
+    brightness: 255
   light.everspring_ad147_plugin_dimmer_module_level_3_0:
     state: on
-    brightness: 40
+    brightness: 255
   switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
     state: on
