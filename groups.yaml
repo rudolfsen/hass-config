@@ -3,15 +3,26 @@ default_view:
   icon: mdi:home 
   entities:
     - group.stuelys
-    - group.soverom
-    - group.garasje
-    - group.lyssetting
+    - group.hovedsoverom
+    - group.garasjelys
 
 stue:
   view: yes
   name: Stue
   entities:
     - group.stuelys
+
+soverom:
+  view: yes
+  name: Soverom 1
+  entities:
+    - group.hovedsoverom
+
+garasje:
+  view: yes
+  name: Garasje
+  entities:
+    - group.garasjelys
 
 media:
   view: yes
@@ -46,6 +57,11 @@ verisure:
 stuelys:
   name: Stue
   entities:
+    - sensor.stue_humidity
+    - sensor.stue_temperature
+    - scene.stue_kveld
+    - scene.stue_lys
+    - scene.stue_film
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
     - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
     - light.fibaro_system_fgd212_dimmer_2_level_10_0
@@ -54,11 +70,6 @@ stuelys:
     - light.fibaro_system_fgd212_dimmer_2_level_13_0
     - light.fibaro_system_fgd212_dimmer_2_level_14_0
     - switch.everspring_an180_plugin_onoff_module_switch_8_0
-    - sensor.stue_humidity
-    - sensor.stue_temperature
-    - scene.stue_kveld
-    - scene.stue_lys
-    - scene.stue_film
 
 lyssetting:
   name: Lyssetting
@@ -73,17 +84,20 @@ lyssetting:
     - scene.soverom_full
     - scene.alle_lys
 
-garasje:
+garasjelys:
   name: Garasje
   entities:
+    - scene.garasje_lys
     - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
     - light.tradfri_bulb_e27_opal_1000lm
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
 
-soverom:
+hovedsoverom:
   name: Soverom
   entities:
+    - sensor.soverom_voksen_temperature
+    - sensor.soverom_voksen_humidity
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
     - light.everspring_ad147_plugin_dimmer_module_level_7_0
     - light.fibaro_system_fgd212_dimmer_2_level_6_0
