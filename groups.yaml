@@ -30,6 +30,8 @@ lyssetting:
     - scene.stue_film
     - scene.soverom_kveld  
     - scene.soverom_av
+    - scene.soverom_full
+    - scene.alle_lys
 
 garasje:
   name: Garasje
