@@ -1,4 +1,4 @@
-name: Alle lys av
+name: Lys av
 entities:
   group.all_switches:
     state: off

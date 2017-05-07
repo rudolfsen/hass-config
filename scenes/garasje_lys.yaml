@@ -1,4 +1,4 @@
-name: Garasje fullt lys
+name: Garasje lys
 entities:
   light.tradfri_bulb_e27_opal_1000lm:
     state: on
