@@ -39,24 +39,32 @@
 
 - alias: God morgen
   trigger:
-   - platform: time
-     after: '06:50'
+    - platform: time
+      after: '06:50'
   action:
     - service: scene.turn_on
       entity_id: scene.stue_lys
 
 - alias: Demp lys
   trigger:
-   - platform: time
-     after: '19:30'
+    - platform: time
+      after: '19:30'
   action:
     - service: scene.turn_on
       entity_id: scene.stue_kveld
 
 - alias: Sen kveld
   trigger:
-   - platform: time
-     after: '22:00'
+    - platform: time
+      after: '22:00'
   action:
     - service: scene.turn_on
       entity_id: scene.stue_film
+
+- alias: Sovetid
+  trigger:
+    - platform: time
+      after: '22:05'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.soverom_kveld
