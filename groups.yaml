@@ -22,14 +22,14 @@ livingroom:
     - sensor.stue_temperature
 
 scener:
-  name: Scenes
+  name: Scener
   entities:
-      - scene.garasje_paa
-      - scene.garasje_av
-      - scene.stue_kveld
-      - scene.stue_dag
+      - scene.garasje_on
+      - scene.garasje_off
+      - scene.stue_evening
+      - scene.stue_all_on
       - scene.stue_film  
-      - scene.alt_av
+      - scene.all_off
 
 garasje:
   name: Garasje
