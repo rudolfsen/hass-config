@@ -2,12 +2,48 @@ default_view:
   view: yes
   icon: mdi:home 
   entities:
-    - group.stue
+    - group.stuelys
     - group.soverom
     - group.garasje
     - group.lyssetting
 
 stue:
+  view: yes
+  name: Stue
+  entities:
+    - group.stuelys
+    
+media:
+  view: yes
+  name: Media
+  entities:
+    - media_player.office
+    - media_player.kjeller
+    - media_player.spotify
+    - media_player.tv__kjellerstue
+    - media_player.samsung_tv_remote
+    - media_player.tv__stue
+    - remote.loftet
+    - remote.stue
+
+ikea:
+  view: yes
+  name: IKEA
+  entities:
+    - light.tradfri_bulb_e27_opal_1000lm
+    - light.tradfri_bulb_e27_opal_1000lm_2
+    - light.tradfri_bulb_e27_opal_1000lm_3  
+
+verisure:
+  view: yes
+  name: Verisure
+  entities:
+    - group.alarm
+    - lock.garasje
+    - lock.hoveddr
+    - group.sensors
+
+stuelys:
   name: Stue
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_3_0
@@ -42,29 +78,12 @@ garasje:
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
 
-ikea:
-  view: yes
-  name: IKEA
-  entities:
-    - light.tradfri_bulb_e27_opal_1000lm
-    - light.tradfri_bulb_e27_opal_1000lm_2
-    - light.tradfri_bulb_e27_opal_1000lm_3    
-
 soverom:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
     - light.everspring_ad147_plugin_dimmer_module_level_7_0
     - light.fibaro_system_fgd212_dimmer_2_level_6_0
-
-verisure:
-  view: yes
-  name: Verisure
-  entities:
-    - group.alarm
-    - lock.garasje
-    - lock.hoveddr
-    - group.sensors
 
 sensors:
   name: Sensorer
@@ -80,19 +99,6 @@ alarm:
   name: Alarm
   entities:
     - alarm_control_panel.alarm_1
-
-media:
-  view: yes
-  name: Media
-  entities:
-    - media_player.office
-    - media_player.kjeller
-    - media_player.spotify
-    - media_player.tv__kjellerstue
-    - media_player.samsung_tv_remote
-    - media_player.tv__stue
-    - remote.loftet
-    - remote.stue
   
 brytere:
   name: Brytere
