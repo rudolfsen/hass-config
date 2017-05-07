@@ -66,5 +66,5 @@
    - platform: time
      after: '22:00'
   action:
-    - service: scene.turn_on
-      entity_id: scene.soverom_kveld
+   - service: scene.turn_on
+     entity_id: scene.soverom_kveld
