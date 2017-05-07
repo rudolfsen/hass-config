@@ -53,7 +53,16 @@ verisure:
     - lock.garasje
     - lock.hoveddr
     - group.sensors
-    - group.verisure
+    - switch.kaffe
+    - switch.kjeller_02
+    - switch.kjellerstue
+    - switch.kontor
+    - switch.loft
+    - switch.lotta
+    - switch.lotta_taklampe
+    - switch.noah__bordlampe
+    - switch.noah__lader
+    - switch.stue__varmeovn
 
 stuelys:
   name: Stue
