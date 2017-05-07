@@ -1,4 +1,4 @@
-- alias: Bevegelse
+- alias: Movement
   trigger:
     - platform: state
       entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
@@ -6,9 +6,9 @@
       to: 'on'
   action:
     - service: scene.turn_on
-      entity_id: scene.garasje_on
+      entity_id: scene.garasje_lys
 
-- alias: Bevegelse slutt
+- alias: Movement ended
   trigger:
     - platform: state
       entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
@@ -16,4 +16,32 @@
       to: 'off'
   action:
     - service: scene.turn_on
-      entity_id: scene.garasje_off
+      entity_id: scene.garasje_av
+
+- alias: Alarm
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm_1
+      from: 'disarmed'
+      to: 'armed_home'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.alle_lys
+
+- alias: God morgen
+  trigger:
+    - platform: sun
+      event: sunrise
+      offset: '00:00:00'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.stue_lys
+
+- alias: Demp lys kveld
+  trigger:
+    - platform: sun
+      event: sunset
+      offset: '+01:00:00'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.stue_kveld

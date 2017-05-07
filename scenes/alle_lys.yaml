@@ -1,4 +1,4 @@
-name: Alt av
+name: Alle lys av
 entities:
   group.all_switches:
     state: off

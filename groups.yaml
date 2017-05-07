@@ -3,7 +3,7 @@ default_view:
   icon: mdi:home 
   entities:
     - group.stue
-    - group.soverom_1
+    - group.soverom
     - group.garasje
     - group.lyssetting
 
@@ -23,12 +23,12 @@ stue:
 lyssetting:
   name: Lyssetting
   entities:
-    - scene.garasje_on
-    - scene.garasje_off
-    - scene.stue_evening
-    - scene.stue_all_on
+    - scene.garasje_lys
+    - scene.garasje_av
+    - scene.stue_kveld
+    - scene.stue_lys
     - scene.stue_film  
-    - scene.all_off
+    - scene.alle_lys
 
 garasje:
   name: Garasje
@@ -47,7 +47,7 @@ ikea:
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
 
-soverom_1:
+soverom:
   name: Soverom
   entities:
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
