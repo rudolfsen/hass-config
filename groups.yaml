@@ -12,7 +12,7 @@ stue:
   name: Stue
   entities:
     - group.stuelys
-    
+
 media:
   view: yes
   name: Media
@@ -56,6 +56,9 @@ stuelys:
     - switch.everspring_an180_plugin_onoff_module_switch_8_0
     - sensor.stue_humidity
     - sensor.stue_temperature
+    - scene.stue_kveld
+    - scene.stue_lys
+    - scene.stue_film
 
 lyssetting:
   name: Lyssetting
