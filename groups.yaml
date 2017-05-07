@@ -23,12 +23,12 @@ stue:
 scener:
   name: Scenes
   entities:
-      - scene.garasje_on
-      - scene.garasje_off
-      - scene.stue_evening
-      - scene.stue_all_on
-      - scene.stue_film  
-      - scene.all_off
+    - scene.garasje_on
+    - scene.garasje_off
+    - scene.stue_evening
+    - scene.stue_all_on
+    - scene.stue_film  
+    - scene.all_off
 
 garasje:
   name: Garasje
