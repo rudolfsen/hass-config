@@ -52,3 +52,11 @@
   action:
     - service: scene.turn_on
       entity_id: scene.stue_kveld
+
+- alias: Sen kveld
+  trigger:
+   - platform: time
+     after: '22:00'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.stue_film

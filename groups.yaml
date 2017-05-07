@@ -53,6 +53,7 @@ verisure:
     - lock.garasje
     - lock.hoveddr
     - group.sensors
+    - group.verisure
 
 stuelys:
   name: Stue
