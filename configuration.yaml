@@ -76,6 +76,11 @@ zwave:
 ifttt:
   key: !secret ifttt_key
 
+notify:
+  - name: push
+    platform: pushbullet
+    api_key: !secret pushbullet_key
+
 # Verisure
 verisure:
   username: !secret verisure_username

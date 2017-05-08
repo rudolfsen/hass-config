@@ -74,5 +74,5 @@
     - platform: event
       event_type: homeassistant_start
   action:
-    - service: ifttt.trigger
-      data: {"event":"TestHA_trigger", "value1":"Hello World!"}
+    - service: notify.push
+      data: HASS Started
