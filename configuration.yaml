@@ -73,6 +73,9 @@ zwave:
 #  host: 192.168.86.32
 #  api_key: !secret ikea_key
 
+ifttt:
+  key: !secret ifttt_key
+
 # Verisure
 verisure:
   username: !secret verisure_username
