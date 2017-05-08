@@ -78,26 +78,6 @@
       data:
         message: HASS startet
 
-- alias: Bevegelse kjellergang
-  trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
-      to: 'on'
-  action:
-    - service: notify.push
-      data:
-        message: Bevegelse i kjellergang
-
-- alias: Bevegelse loft
-  trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-      to: 'on'
-  action:
-    - service: notify.push
-      data:
-        message: Bevegelse loft
-
 - alias: Bevegelse loft
   trigger:
     - platform: state
