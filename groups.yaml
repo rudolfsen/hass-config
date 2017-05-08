@@ -110,6 +110,7 @@ hovedsoverom:
     - sensor.soverom_voksen_humidity
     - scene.soverom_kveld
     - scene.soverom_full
+    - scene.soverom_av
     - light.everspring_ad147_plugin_dimmer_module_level_4_0
     - light.everspring_ad147_plugin_dimmer_module_level_7_0
     - light.fibaro_system_fgd212_dimmer_2_level_6_0
