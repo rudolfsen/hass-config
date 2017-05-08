@@ -75,4 +75,5 @@
       event_type: homeassistant_start
   action:
     - service: notify.push
-      data: HASS Started
+      data:
+        message: HASS startet
