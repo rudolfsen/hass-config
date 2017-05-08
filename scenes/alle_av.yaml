@@ -27,4 +27,6 @@ entities:
   light.fibaro_system_fgd212_dimmer_2_level_6_0:
     state: off
   switch.everspring_an180_plugin_onoff_module_switch_8_0:
+    state: off
+  light.everspring_ad147_plugin_dimmer_module_level_17_0:
     state: off  

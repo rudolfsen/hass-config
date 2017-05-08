@@ -156,8 +156,8 @@ brytere:
     - switch.magnus
     - switch.mirjam
 
-  loft:
-    name: Loft
-    entities:
-      - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-      - light.everspring_ad147_plugin_dimmer_module_level_17_0
+loft:
+  name: Loft
+  entities:
+    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+    - light.everspring_ad147_plugin_dimmer_module_level_17_0
