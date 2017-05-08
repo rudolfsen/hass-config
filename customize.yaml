@@ -59,10 +59,13 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_15_1:
   friendly_name: Temperatur loft
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_15_3:
-  friendly_name: Lysmåling loft
+  friendly_name: Lysstyrke loft
 
 binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0:
   friendly_name: Sensor kjellergang
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1:
   friendly_name: Temperatur kjellergang
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
+  friendly_name: Lysstyrke kjellergang  
