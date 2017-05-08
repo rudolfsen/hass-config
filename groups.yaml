@@ -166,3 +166,10 @@ loft:
     - scene.loft_av
     - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
     - light.everspring_ad147_plugin_dimmer_module_level_17_0
+
+loft:
+  name: Kjellergang
+  entities:
+    - sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1
+    - sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3
+    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0  

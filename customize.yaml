@@ -54,3 +54,9 @@ light.fibaro_system_fgd212_dimmer_2_level_14_0:
 
 binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0:
   friendly_name: Sensor loft
+
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0:
+  friendly_name: Sensor kjellergang
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1:
+  friendly_name: Temperatur kjellergang
