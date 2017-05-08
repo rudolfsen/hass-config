@@ -60,3 +60,11 @@
   action:
     - service: scene.turn_on
       entity_id: scene.stue_film
+
+- alias: Soverom
+  trigger:
+    - platform: time
+      after: '21:00'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.soverom_kveld
