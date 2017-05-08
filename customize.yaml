@@ -68,4 +68,7 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1:
   friendly_name: Temperatur kjellergang
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
-  friendly_name: Lysstyrke kjellergang  
+  friendly_name: Lysstyrke kjellergang
+
+light.everspring_ad147_plugin_dimmer_module_level_17_0:
+  friendly_name: Lys loft 
