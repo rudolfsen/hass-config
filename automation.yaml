@@ -71,8 +71,8 @@
 
 - alias: Startup Notification
   trigger:
-    platform: event
-    event_type: homeassistant_start
+    - platform: event
+      event_type: homeassistant_start
   action:
-    service: ifttt.trigger
-    data: {"event":"TestHA_Trigger", "value1":"Hello World!"}
+    - service: ifttt.trigger
+      data: {"event":"TestHA_Trigger", "value1":"Hello World!"}
