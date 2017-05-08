@@ -68,3 +68,11 @@
   action:
     - service: scene.turn_on
       entity_id: scene.soverom_kveld
+
+- alias: Startup Notification
+  trigger:
+    platform: event
+    event_type: homeassistant_start
+  action:
+    service: ifttt.trigger
+    data: {"event":"TestHA_Trigger", "value1":"Hello World!"}
