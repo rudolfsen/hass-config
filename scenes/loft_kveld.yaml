@@ -1,0 +1,5 @@
+name: Loft kveld
+entities:
+  light.everspring_ad147_plugin_dimmer_module_level_17_0:
+    state: on
+    brightness: 40

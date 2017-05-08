@@ -18,6 +18,26 @@
     - service: scene.turn_on
       entity_id: scene.garasje_av
 
+- alias: Bevegelse_loft
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+      from: 'off'
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.loft_full
+  
+- alias: Bevegelse_loft_slutt
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+      from: 'off'
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.loft_av
+
 - alias: Alarm pa
   trigger:
     - platform: state
