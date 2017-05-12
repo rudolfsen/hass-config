@@ -86,3 +86,16 @@ verisure:
   username: !secret verisure_username
   password: !secret verisure_password
   code_digits: 6
+
+# Media
+media_player:
+  - platform: spotify
+    client_id: !secret spotify_id
+    client_secret: !secret spotify_secret
+  - platform: braviatv
+    host: 192.168.86.230
+    name: TV - kjellerstue
+  - platform: samsungtv    
+    name: TV - stue
+    host: 192.168.86.29
+    mac: 0c:89:10:ce:be:b4
