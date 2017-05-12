@@ -67,6 +67,7 @@ verisure:
     - switch.stue__varmeovn
 
 kjeller:
+  view: yes
   name: Kjeller
   entities:
     - group.kjellergang
