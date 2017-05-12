@@ -103,8 +103,5 @@ media_player:
 # Remotes
 remote:
   - platform: harmony
-    name: Loftet
-    host: 192.168.86.71
-  - platform: harmony
     name: Stue
     host: 192.168.86.31
