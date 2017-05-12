@@ -6,7 +6,7 @@ default_view:
     - group.hovedsoverom
     - group.garasjelys
     - group.loft
-    - group.kjeller
+    - group.kjellergang
 
 stue:
   view: yes
@@ -69,7 +69,7 @@ verisure:
 kjeller:
   name: Kjeller
   entities:
-    - group.kjeller
+    - group.kjellergang
 
 stuelys:
   name: Stue
@@ -173,7 +173,7 @@ loft:
     - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
     - light.everspring_ad147_plugin_dimmer_module_level_17_0
 
-kjeller:
+kjellergang:
   name: Kjellergang
   entities:
     - sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1
