@@ -1,5 +1,5 @@
 name: Kjeller kveld
 entities:
-  light.everspring_ad147_plugin_dimmer_module_level_18_0:
+  light.fibaro_system_fgd212_dimmer_2_level_18_0:
     state: on
     brightness: 100
