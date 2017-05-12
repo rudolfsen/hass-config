@@ -72,3 +72,6 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
 
 light.everspring_ad147_plugin_dimmer_module_level_17_0:
   friendly_name: Lys loft 
+
+light.fibaro_system_fgd212_dimmer_2_level_18_0:
+  friendly_name: Kjellergang

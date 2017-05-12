@@ -95,3 +95,21 @@
   action:
     - service: scene.turn_on
       entity_id: scene.loft_av
+
+- alias: Bevegelse kjeller
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.kjeller_full
+  
+- alias: Bevegelse kjeller
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+      to: 'off'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.kjeller_av

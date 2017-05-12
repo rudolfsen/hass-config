@@ -1,0 +1,5 @@
+name: Kjeller kveld
+entities:
+  light.everspring_ad147_plugin_dimmer_module_level_18_0:
+    state: on
+    brightness: 100
