@@ -99,7 +99,6 @@ media_player:
     name: TV - stue
     host: 192.168.86.29
     mac: 0c:89:10:ce:be:b4
-  - platform: cast
 
 # Remotes
 remote:
