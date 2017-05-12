@@ -173,4 +173,4 @@ kjeller:
   entities:
     - sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1
     - sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3
-    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0  
+    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
