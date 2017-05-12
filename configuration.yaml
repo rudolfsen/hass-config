@@ -99,3 +99,12 @@ media_player:
     name: TV - stue
     host: 192.168.86.29
     mac: 0c:89:10:ce:be:b4
+
+# Remotes
+remote:
+  - platform: harmony
+    name: Loftet
+    host: 192.168.86.71
+  - platform: harmony
+    name: Stue
+    host: 192.168.86.31
