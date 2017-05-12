@@ -66,6 +66,11 @@ verisure:
     - switch.noah__lader
     - switch.stue__varmeovn
 
+kjeller:
+  name: Kjeller
+  entities:
+    - group.kjeller
+
 stuelys:
   name: Stue
   entities:
