@@ -105,3 +105,7 @@ remote:
   - platform: harmony
     name: Stue
     host: 192.168.86.31
+
+emulated_hue:
+  type: alexa
+  listen_port: 80
