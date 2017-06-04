@@ -77,6 +77,3 @@ light.everspring_ad147_plugin_dimmer_module_level_17_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_18_0:
   friendly_name: Kjellergang
-
-light.fibaro_system_fgd212_dimmer_2_level_18_0:
-  emulated_hue: true
