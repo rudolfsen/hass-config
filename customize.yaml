@@ -45,7 +45,7 @@ light.fibaro_system_fgd212_dimmer_2_level_11_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
   friendly_name: Stue fjærlampe
-  emulated_hue_name: "feather lamp"
+  emulated_hue_name: feather lamp
 
 light.fibaro_system_fgd212_dimmer_2_level_13_0:
   friendly_name: Kjøkken downlights
