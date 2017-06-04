@@ -37,9 +37,6 @@ light.tradfri_bulb_e27_ws_opal_980lm:
 light.tradfri_bulb_e27_ws_opal_980lm_2:
   friendly_name: Stue 2
 
-light.tradfri_bulb_e27_ws_opal_980lm_3:
-  friendly_name: Fjæra
-
 light.tradfri_bulb_e27_opal_1000lm:
   friendly_name: Garasje 1
 
@@ -95,7 +92,7 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
 light.everspring_ad147_plugin_dimmer_module_level_17_0:
   friendly_name: Lys loft
   emulated_hue: true
-    emulated_hue_name: "upstairs lights" 
+  emulated_hue_name: "upstairs lights" 
 
 light.fibaro_system_fgd212_dimmer_2_level_18_0:
   friendly_name: Kjellergang
