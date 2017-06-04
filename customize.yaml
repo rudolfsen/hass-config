@@ -1,56 +1,74 @@
 light.everspring_ad147_plugin_dimmer_module_level_4_0:
   friendly_name: Leselys - Mirjam
+  emulated_hue: true
 
 light.everspring_ad147_plugin_dimmer_module_level_7_0:
   friendly_name: Leselys - Magnus
+  emulated_hue: true
 
 light.everspring_ad147_plugin_dimmer_module_level_3_0:
   friendly_name: Lampe på hylle
+  emulated_hue: true
 
 switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
   friendly_name: Lampe kjøkkenbenk
+  emulated_hue: true
 
 light.fibaro_system_fgd212_dimmer_2_level_6_0:
   friendly_name: Taklampe
+  emulated_hue: true
 
 binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0:
   friendly_name: Bevegelse garasje
 
 switch.everspring_an180_plugin_onoff_module_switch_8_0:
   friendly_name: Milk lamp
+  emulated_hue: true
 
 light.tradfri_bulb_e27_ws_opal_980lm:
   friendly_name: Stue 1
+  emulated_hue: true
 
 light.tradfri_bulb_e27_ws_opal_980lm_2:
   friendly_name: Stue 2
+  emulated_hue: true
 
 light.tradfri_bulb_e27_ws_opal_980lm_3:
   friendly_name: Fjæra
+  emulated_hue: true
 
 light.tradfri_bulb_e27_opal_1000lm:
   friendly_name: Garasje 1
+  emulated_hue: true
 
 light.tradfri_bulb_e27_opal_1000lm_2:
   friendly_name: Garasje 2
+  emulated_hue: true
 
 light.tradfri_bulb_e27_opal_1000lm_3:
   friendly_name: Garasje 3
+  emulated_hue: true
 
 light.fibaro_system_fgd212_dimmer_2_level_12_0:
   friendly_name: Stue downlights
+  emulated_hue: true
 
 light.fibaro_system_fgd212_dimmer_2_level_11_0:
   friendly_name: Stue spisebord
+  emulated_hue: true
 
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
   friendly_name: Stue hovedlampe
+  emulated_hue: true
+  emulated_hue_name: "main lamp"
 
 light.fibaro_system_fgd212_dimmer_2_level_13_0:
   friendly_name: Kjøkken downlights
+  emulated_hue: true
 
 light.fibaro_system_fgd212_dimmer_2_level_14_0:
   friendly_name: Gang downlights
+  emulated_hue: true
 
 binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0:
   friendly_name: Sensor loft
@@ -71,7 +89,9 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
   friendly_name: Lysstyrke kjellergang
 
 light.everspring_ad147_plugin_dimmer_module_level_17_0:
-  friendly_name: Lys loft 
+  friendly_name: Lys loft
+  emulated_hue: true 
 
 light.fibaro_system_fgd212_dimmer_2_level_18_0:
   friendly_name: Kjellergang
+  emulated_hue: true

@@ -111,4 +111,4 @@ emulated_hue:
   off_maps_to_on_domains:
     - script
     - scene
-  expose_by_default: true
+  expose_by_default: false
