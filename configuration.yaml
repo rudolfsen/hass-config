@@ -107,3 +107,4 @@ remote:
     host: 192.168.86.31
 
 emulated_hue:
+  expose_by_default: false
