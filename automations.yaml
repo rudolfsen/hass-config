@@ -1,0 +1,119 @@
+- id: garasje_bevegelse_on
+  alias: Bevegelse
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+      from: 'off'
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.garasje_lys
+
+- id: garasje_bevegelse_off
+  alias: Bevegelse slutt
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+      from: 'on'
+      to: 'off'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.garasje_av
+
+- id: alarm_on
+  alias: Alarm pa
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm_1
+      from: 'disarmed'
+      to: 'armed_home'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.alle_av
+
+- id: alarm_off
+  alias: Alarm av
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm_1
+      to: 'disarmed'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.alle_lys
+
+- id: good_morning
+  alias: God morgen
+  trigger:
+    - platform: time
+      after: '06:50'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.stue_lys
+
+- id: evening
+  alias: Demp lys
+  trigger:
+    - platform: time
+      after: '19:30'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.stue_kveld
+
+- id: late_evening
+  alias: Sen kveld
+  trigger:
+    - platform: time
+      after: '21:30'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.stue_film
+
+- id: startup
+  alias: Startup
+  trigger:
+    - platform: event
+      event_type: homeassistant_start
+  action:
+    - service: notify.push
+      data:
+        message: HASS startet
+
+- id: attic_movement_on
+  alias: Bevegelse loft
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.loft_full
+  
+- id: attic_movement_off
+  alias: Bevegelse loft
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+      to: 'off'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.loft_av
+
+- id: basement_movement_on
+  alias: Bevegelse kjeller
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.kjeller_full
+  
+- id: basement_movement_off
+  alias: Bevegelse kjeller
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+      to: 'off'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.kjeller_av
