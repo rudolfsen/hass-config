@@ -98,3 +98,8 @@ light.fibaro_system_fgd212_dimmer_2_level_18_0:
   friendly_name: Kjellergang
   emulated_hue: true
   emulated_hue_name: "downstairs downlights"
+
+switch.stue__varmeovn:
+  friendly_name: Stueovn
+  emulated_hue: true
+  emulated_hue_name: "heat"
