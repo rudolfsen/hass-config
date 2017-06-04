@@ -39,15 +39,14 @@ light.tradfri_bulb_e27_opal_1000lm_3:
 
 light.fibaro_system_fgd212_dimmer_2_level_12_0:
   friendly_name: Stue downlights
-  emulated_hue: true
 
 light.fibaro_system_fgd212_dimmer_2_level_11_0:
-  friendly_name: Stue spisebord
   emulated_hue: true
+  friendly_name: Stue spisebord
 
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
-  friendly_name: Stue hovedlampe
   emulated_hue: true
+  friendly_name: Stue hovedlampe
 
 light.fibaro_system_fgd212_dimmer_2_level_13_0:
   friendly_name: Kjøkken downlights
@@ -78,3 +77,6 @@ light.everspring_ad147_plugin_dimmer_module_level_17_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_18_0:
   friendly_name: Kjellergang
+
+light.fibaro_system_fgd212_dimmer_2_level_18_0:
+  emulated_hue: true
