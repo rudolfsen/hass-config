@@ -37,14 +37,6 @@
     - service: scene.turn_on
       entity_id: scene.alle_lys
 
-- alias: God morgen
-  trigger:
-    - platform: time
-      after: '06:50'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.stue_lys
-
 - alias: Demp lys
   trigger:
     - platform: time
@@ -52,6 +44,8 @@
   action:
     - service: scene.turn_on
       entity_id: scene.stue_kveld
+  emulated_hue: true
+  emulated_hue_name: "dimmed lights"
 
 - alias: Sen kveld
   trigger:
