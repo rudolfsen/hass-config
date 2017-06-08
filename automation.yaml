@@ -37,24 +37,6 @@
     - service: scene.turn_on
       entity_id: scene.alle_lys
 
-- alias: Demp lys
-  trigger:
-    - platform: time
-      after: '19:30'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.stue_kveld
-  emulated_hue: true
-  emulated_hue_name: "dimmed lights"
-
-- alias: Sen kveld
-  trigger:
-    - platform: time
-      after: '21:30'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.stue_film
-
 - alias: Startup
   trigger:
     - platform: event
