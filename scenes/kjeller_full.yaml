@@ -2,3 +2,7 @@ name: Kjeller full
 entities:
   light.fibaro_system_fgd212_dimmer_2_level_18_0:
     state: on
+    brightness: 255
+  light.fibaro_system_fgd212_dimmer_2_level_19_0:
+    state: on
+    brightness: 255
