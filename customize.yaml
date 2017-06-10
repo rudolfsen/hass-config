@@ -13,6 +13,11 @@ light.everspring_ad147_plugin_dimmer_module_level_3_0:
   emulated_hue: true
   emulated_hue_name: "shelf lamp"
 
+light.fibaro_system_fgd212_dimmer_2_level_19_0:
+  friendly_name: Kjellerstue
+  emulated_hue: true
+  emulated_hue_name: "tv room"
+
 switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
   friendly_name: Lampe kjøkkenbenk
   emulated_hue: true
