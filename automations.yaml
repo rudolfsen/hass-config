@@ -41,33 +41,6 @@
     - service: scene.turn_on
       entity_id: scene.alle_lys
 
-- id: good_morning
-  alias: God morgen
-  trigger:
-    - platform: time
-      after: '06:50'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.stue_lys
-
-- id: evening
-  alias: Demp lys
-  trigger:
-    - platform: time
-      after: '19:30'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.stue_kveld
-
-- id: late_evening
-  alias: Sen kveld
-  trigger:
-    - platform: time
-      after: '21:30'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.stue_film
-
 - id: startup
   alias: Startup
   trigger:
