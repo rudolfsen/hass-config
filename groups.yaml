@@ -181,6 +181,7 @@ kjellergang:
     - sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3
     - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
     - light.fibaro_system_fgd212_dimmer_2_level_18_0
+    - light.fibaro_system_fgd212_dimmer_2_level_19_0
     - scene.kjeller_full
     - scene.kjeller_kveld  
     - scene.kjeller_av
