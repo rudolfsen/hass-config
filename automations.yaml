@@ -60,16 +60,6 @@
   action:
     - service: scene.turn_on
       entity_id: scene.loft_full
-  
-- id: attic_movement_off
-  alias: Bevegelse loft
-  trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-      to: 'off'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.loft_av
 
 - id: basement_movement_on
   alias: Bevegelse kjeller
