@@ -25,10 +25,12 @@ frontend:
 config:
 
 http:
-  # Uncomment this to add a password (recommended!)
   api_password: !secret api_password
-  ssl_certificate: /etc/letsencrypt/live/rudolfsen.duckdns.org/fullchain.pem
-  ssl_key: /etc/letsencrypt/live/rudolfsen.duckdns.org/privkey.pem
+  #ssl_certificate: /etc/letsencrypt/live/rudolfsen.duckdns.org/fullchain.pem
+  #ssl_key: /etc/letsencrypt/live/rudolfsen.duckdns.org/privkey.pem
+  #trusted_networks:
+  # - 127.0.0.1
+  # - 192.168.0.0/24
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
 
