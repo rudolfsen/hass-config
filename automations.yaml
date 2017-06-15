@@ -56,10 +56,22 @@
   trigger:
     - platform: state
       entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-      to: 'on'
+      state: 'on'
   action:
-    - service: scene.turn_on
-      entity_id: scene.loft_full
+    - service: light.turn_on
+      entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
+
+- id: attic_movement_off
+  alias: Bevegelse loft
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+      state: 'off'
+      for:
+        minutes: 15
+  action:
+    - service: light.turn_off
+      entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
 
 - id: basement_movement_on
   alias: Bevegelse kjeller
@@ -68,15 +80,17 @@
       entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
       to: 'on'
   action:
-    - service: scene.turn_on
-      entity_id: scene.kjeller_full
+    - service: light.turn_on
+      entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
   
 - id: basement_movement_off
   alias: Bevegelse kjeller
   trigger:
     - platform: state
       entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
-      to: 'off'
+      state: 'off'
+      for:
+        minutes: 15
   action:
-    - service: scene.turn_on
-      entity_id: scene.kjeller_av
+    - service: light.turn_on
+      entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
