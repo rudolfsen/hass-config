@@ -1,96 +1,92 @@
 - id: garasje_bevegelse_on
   alias: Bevegelse
   trigger:
-    - platform: state
-      entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
-      from: 'off'
-      to: 'on'
+  - platform: state
+    entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+    from: 'off'
+    to: 'on'
   action:
-    - service: scene.turn_on
-      entity_id: scene.garasje_lys
-
+  - service: scene.turn_on
+    entity_id: scene.garasje_lys
 - id: garasje_bevegelse_off
   alias: Bevegelse slutt
   trigger:
-    - platform: state
-      entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
-      from: 'on'
-      to: 'off'
+  - platform: state
+    entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+    from: 'on'
+    to: 'off'
   action:
-    - service: scene.turn_on
-      entity_id: scene.garasje_av
-
+  - service: scene.turn_on
+    entity_id: scene.garasje_av
 - id: alarm_on
   alias: Alarm pa
   trigger:
-    - platform: state
-      entity_id: alarm_control_panel.alarm_1
-      from: 'disarmed'
-      to: 'armed_home'
+  - platform: state
+    entity_id: alarm_control_panel.alarm_1
+    from: disarmed
+    to: armed_home
   action:
-    - service: scene.turn_on
-      entity_id: scene.alle_av
-
+  - service: scene.turn_on
+    entity_id: scene.alle_av
 - id: alarm_off
   alias: Alarm av
   trigger:
-    - platform: state
-      entity_id: alarm_control_panel.alarm_1
-      to: 'disarmed'
+  - platform: state
+    entity_id: alarm_control_panel.alarm_1
+    to: disarmed
   action:
-    - service: scene.turn_on
-      entity_id: scene.alle_lys
-
+  - service: scene.turn_on
+    entity_id: scene.alle_lys
 - id: startup
   alias: Startup
   trigger:
-    - platform: event
-      event_type: homeassistant_start
+  - platform: event
+    event_type: homeassistant_start
   action:
-    - service: notify.push
-      data:
-        message: HASS startet
-
+  - service: notify.push
+    data:
+      message: HASS startet
 - id: attic_movement_on
   alias: Bevegelse loft
   trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-      state: 'on'
+  - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+    from: 'off'
+    platform: state
+    state: 'on'
+    to: 'on'
   action:
-    - service: light.turn_on
-      entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
-
+  - entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
+    service: light.turn_on
 - id: attic_movement_off
   alias: Bevegelse loft
   trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-      state: 'off'
-      for:
-        minutes: 15
+  - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+    for:
+      minutes: 15
+    from: 'on'
+    platform: state
+    state: 'off'
+    to: 'off'
   action:
-    - service: light.turn_off
-      entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
-
+  - entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
+    service: light.turn_off
 - id: basement_movement_on
   alias: Bevegelse kjeller
   trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
-      state: 'on'
+  - platform: state
+    entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+    state: 'on'
   action:
-    - service: light.turn_on
-      entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
-  
+  - service: light.turn_on
+    entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
 - id: basement_movement_off
   alias: Bevegelse kjeller
   trigger:
-    - platform: state
-      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
-      state: 'off'
-      for:
-        minutes: 15
+  - platform: state
+    entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+    state: 'off'
+    for:
+      minutes: 15
   action:
-    - service: light.turn_off
-      entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
+  - service: light.turn_off
+    entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0

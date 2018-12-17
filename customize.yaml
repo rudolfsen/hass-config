@@ -1,17 +1,11 @@
 light.everspring_ad147_plugin_dimmer_module_level_4_0:
   friendly_name: Leselys - Mirjam
-  emulated_hue: true
-  emulated_hue_name: "right reading light"
 
 light.everspring_ad147_plugin_dimmer_module_level_7_0:
   friendly_name: Leselys - Magnus
-  emulated_hue: true
-  emulated_hue_name: "left reading light"
 
 light.everspring_ad147_plugin_dimmer_module_level_3_0:
-  friendly_name: Lampe på hylle
-  emulated_hue: true
-  emulated_hue_name: "shelf lamp"
+  friendly_name: Lampe hylle
 
 light.fibaro_system_fgd212_dimmer_2_level_19_0:
   friendly_name: Kjellerstue

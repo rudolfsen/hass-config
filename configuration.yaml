@@ -24,6 +24,51 @@ frontend:
 # Enables configuration UI
 config:
 
+cloud:
+  alexa:
+    filter:
+      include_entities:
+        - light.fibaro_system_fgd212_dimmer_2_level_11_0
+      include_domains:
+        - switch
+    entity_config:
+      light.fibaro_system_fgd212_dimmer_2_level_11_0:
+        name: Living Room
+        description: Living Room Downlights
+
+  google_actions:
+    filter:
+      include_entities:
+        - light.fibaro_system_fgd212_dimmer_2_level_9
+        - light.fibaro_system_fgd212_dimmer_2_level_7
+        - light.fibaro_system_fgd212_dimmer_2_level_3
+        - light.fibaro_system_fgd212_dimmer_2_level_5
+        - light.fibaro_system_fgd212_dimmer_2_level_11
+        - light.fibaro_system_fgd212_dimmer_2_level_13
+        - switch.fibaro_system_fgwpef_wall_plug_gen5_switch
+    entity_config:
+      light.fibaro_system_fgd212_dimmer_2_level_7:
+        name: Downlights
+        room: Stue
+      light.fibaro_system_fgd212_dimmer_2_level_3:
+        name: Hovedlampe
+        room: Stue
+      light.fibaro_system_fgd212_dimmer_2_level_5:
+        name: Spisebord
+        room: Stue
+      light.fibaro_system_fgd212_dimmer_2_level_9:
+        name: Kjokken
+        room: Stue
+      light.fibaro_system_fgd212_dimmer_2_level_11:
+        name: Gang
+        room: Stue
+      light.fibaro_system_fgd212_dimmer_2_level_13:
+        name: Kjellergang
+        room: Kjeller
+      switch.fibaro_system_fgwpef_wall_plug_gen5_switch:
+        name: Kjokkenhylle
+        room: Stue
+
 http:
   api_password: !secret api_password
   ssl_certificate: !secret ssl_cert
@@ -51,7 +96,7 @@ logbook:
 
 # Includes
 scene: !include_dir_list scenes/
-automation: !include automations.yaml
+# automation: !include automations.yaml
 group: !include groups.yaml
 # switch: !include switches.yaml
 
@@ -109,10 +154,10 @@ remote:
     name: Stue
     host: 192.168.86.31
 
-emulated_hue:
-  host_ip: 192.168.86.244
-  listen_port: 8300
-  off_maps_to_on_domains:
-    - script
-    - scene
-  expose_by_default: false
+#emulated_hue:
+#  host_ip: 192.168.86.244
+#  listen_port: 8300
+#  off_maps_to_on_domains:
+#    - script
+#    - scene
+#  expose_by_default: false
