@@ -1,0 +1,20 @@
+name: God natt
+entities:
+entities:
+  light.fibaro_system_fgd212_dimmer_2_level_7:
+    state: on
+    brightness: 10
+  light.fibaro_system_fgd212_dimmer_2_level_3:
+    state: 'off'
+  light.fibaro_system_fgd212_dimmer_2_level_11:
+    state: 'off'
+  light.fibaro_system_fgd212_dimmer_2_level_5:
+    state: 'off'
+  light.fibaro_system_fgd212_dimmer_2_level_9:
+    state: 'off'
+  light.fibaro_system_fgd212_dimmer_2_level_13:
+    state: 'off'
+  switch.fibaro_system_fgwpef_wall_plug_gen5_switch:
+    state: 'off'
+  remote.stue:
+    state: 'off'

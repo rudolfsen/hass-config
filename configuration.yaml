@@ -82,7 +82,13 @@ cloud:
         room: Stue
       scene.stue_kveld:
         name: kveldslys
-        room: Stue                
+        room: Stue
+      scene.apple_tv:
+        name: Apple TV
+        room: Stue
+      scene.apple_tv_off:
+        name: Apple TV av
+        room: Stue                                  
 
 http:
   api_password: !secret api_password
