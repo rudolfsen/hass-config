@@ -46,6 +46,9 @@ cloud:
         - light.fibaro_system_fgd212_dimmer_2_level_11
         - light.fibaro_system_fgd212_dimmer_2_level_13
         - switch.fibaro_system_fgwpef_wall_plug_gen5_switch
+        - scene.stue_film
+        - scene.stue_lys
+        - scene.stue_kveld
     entity_config:
       light.fibaro_system_fgd212_dimmer_2_level_7:
         name: Downlights
@@ -68,6 +71,15 @@ cloud:
       switch.fibaro_system_fgwpef_wall_plug_gen5_switch:
         name: Kjokkenhylle
         room: Stue
+      scene.stue_film:
+        name: film
+        room: Stue
+      scene.stue_lys:
+        name: fullt lys
+        room: Stue
+      scene.stue_kveld:
+        name: kveldslys
+        room: Stue                
 
 http:
   api_password: !secret api_password
