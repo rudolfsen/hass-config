@@ -56,7 +56,7 @@ verisure:
     - lock.hoveddr
     - group.sensors
     - switch.kaffe
-    - switch.kjeller_02
+    - switch.kjeller2
     - switch.kjellerstue
     - switch.kontor
     - switch.loft
@@ -80,14 +80,14 @@ stuelys:
     - scene.stue_kveld
     - scene.stue_lys
     - scene.stue_film
-    - light.everspring_ad147_plugin_dimmer_module_level_3_0
-    - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0
-    - light.fibaro_system_fgd212_dimmer_2_level_10_0
-    - light.fibaro_system_fgd212_dimmer_2_level_11_0
-    - light.fibaro_system_fgd212_dimmer_2_level_12_0
-    - light.fibaro_system_fgd212_dimmer_2_level_13_0
-    - light.fibaro_system_fgd212_dimmer_2_level_14_0
-    - switch.everspring_an180_plugin_onoff_module_switch_8_0
+    - light.everspring_ad147_plugin_dimmer_module_level_3
+    - switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2
+    - light.fibaro_system_fgd212_dimmer_2_level_10
+    - light.fibaro_system_fgd212_dimmer_2_level_11
+    - light.fibaro_system_fgd212_dimmer_2_level_12
+    - light.fibaro_system_fgd212_dimmer_2_level_13
+    - light.fibaro_system_fgd212_dimmer_2_level_14
+    - switch.everspring_an180_plugin_onoff_module_switch_8
 
 lyssetting:
   name: Lyssetting
@@ -106,7 +106,7 @@ garasjelys:
   name: Garasje
   entities:
     - scene.garasje_lys
-    - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+    - binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9
     - light.tradfri_bulb_e27_opal_1000lm
     - light.tradfri_bulb_e27_opal_1000lm_2
     - light.tradfri_bulb_e27_opal_1000lm_3    
@@ -119,9 +119,9 @@ hovedsoverom:
     - scene.soverom_kveld
     - scene.soverom_full
     - scene.soverom_av
-    - light.everspring_ad147_plugin_dimmer_module_level_4_0
-    - light.everspring_ad147_plugin_dimmer_module_level_7_0
-    - light.fibaro_system_fgd212_dimmer_2_level_6_0
+    - light.everspring_ad147_plugin_dimmer_module_level_4
+    - light.everspring_ad147_plugin_dimmer_module_level_7
+    - light.fibaro_system_fgd212_dimmer_2_level_6
 
 sensors:
   name: Sensorer
@@ -153,8 +153,8 @@ brytere:
   name: Brytere
   entities:
     - switch.garasje
-    - switch.kjeller_01
-    - switch.kjeller_02
+    - switch.kjeller1
+    - switch.kjeller2
     - switch.kjeller__varmeovn
     - switch.kontor
     - switch.loft
@@ -171,17 +171,17 @@ loft:
     - scene.loft_full
     - scene.loft_kveld  
     - scene.loft_av
-    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
-    - light.everspring_ad147_plugin_dimmer_module_level_17_0
+    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15
+    - light.everspring_ad147_plugin_dimmer_module_level_17
 
 kjellergang:
   name: Kjellergang
   entities:
     - sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1
     - sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3
-    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
-    - light.fibaro_system_fgd212_dimmer_2_level_18_0
-    - light.fibaro_system_fgd212_dimmer_2_level_19_0
+    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16
+    - light.fibaro_system_fgd212_dimmer_2_level_18
+    - light.fibaro_system_fgd212_dimmer_2_level_19
     - scene.kjeller_full
     - scene.kjeller_kveld  
     - scene.kjeller_av
