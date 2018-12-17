@@ -1,25 +1,25 @@
-light.everspring_ad147_plugin_dimmer_module_level_4_0:
+light.everspring_ad147_plugin_dimmer_module_level_4:
   friendly_name: Leselys - Mirjam
 
-light.everspring_ad147_plugin_dimmer_module_level_7_0:
+light.everspring_ad147_plugin_dimmer_module_level_7:
   friendly_name: Leselys - Magnus
 
-light.everspring_ad147_plugin_dimmer_module_level_3_0:
+light.everspring_ad147_plugin_dimmer_module_level_3:
   friendly_name: Lampe hylle
 
-light.fibaro_system_fgd212_dimmer_2_level_19_0:
+light.fibaro_system_fgd212_dimmer_2_level_19:
   friendly_name: Kjellerstue
 
-switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
+switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2:
   friendly_name: Lampe kjøkkenbenk
 
-light.fibaro_system_fgd212_dimmer_2_level_6_0:
+light.fibaro_system_fgd212_dimmer_2_level_6:
   friendly_name: Taklampe
 
-binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0:
+binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9:
   friendly_name: Bevegelse garasje
 
-switch.everspring_an180_plugin_onoff_module_switch_8_0:
+switch.everspring_an180_plugin_onoff_module_switch_8:
   friendly_name: Milk lamp
 
 light.tradfri_bulb_e27_ws_opal_980lm:
@@ -37,22 +37,22 @@ light.tradfri_bulb_e27_opal_1000lm_2:
 light.tradfri_bulb_e27_opal_1000lm_3:
   friendly_name: Garasje 3
 
-light.fibaro_system_fgd212_dimmer_2_level_12_0:
+light.fibaro_system_fgd212_dimmer_2_level_12:
   friendly_name: Stue downlights
 
-light.fibaro_system_fgd212_dimmer_2_level_11_0:
+light.fibaro_system_fgd212_dimmer_2_level_11:
   friendly_name: Stue spisebord
 
-light.fibaro_system_fgd212_dimmer_2_level_10_0:
+light.fibaro_system_fgd212_dimmer_2_level_10:
   friendly_name: Stue hovedlampe
 
-light.fibaro_system_fgd212_dimmer_2_level_13_0:
+light.fibaro_system_fgd212_dimmer_2_level_13:
   friendly_name: Kjøkken downlights
 
-light.fibaro_system_fgd212_dimmer_2_level_14_0:
+light.fibaro_system_fgd212_dimmer_2_level_14:
   friendly_name: Gang downlights
 
-binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0:
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15:
   friendly_name: Sensor loft
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_15_1:
@@ -61,7 +61,7 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_15_1:
 sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_15_3:
   friendly_name: Lysstyrke loft
 
-binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0:
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16:
   friendly_name: Sensor kjellergang
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1:
@@ -70,10 +70,10 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1:
 sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
   friendly_name: Lysstyrke kjellergang
 
-light.everspring_ad147_plugin_dimmer_module_level_17_0:
+light.everspring_ad147_plugin_dimmer_module_level_17:
   friendly_name: Lys loft
 
-light.fibaro_system_fgd212_dimmer_2_level_18_0:
+light.fibaro_system_fgd212_dimmer_2_level_18:
   friendly_name: Kjellergang
 
 switch.stue__varmeovn:
