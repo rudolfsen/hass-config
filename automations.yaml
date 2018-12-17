@@ -59,8 +59,8 @@
      from: 'off'
      to: 'on'
   action:
-   - entity_id: light.everspring_ad147_plugin_dimmer_module_level_4
-     service: light.turn_on
+    service: scene.turn_on
+    entity_id: scene.loft_full
 
 - id: attic_movement_off
   alias: Bevegelse loft
