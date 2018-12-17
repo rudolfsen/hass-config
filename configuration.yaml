@@ -96,7 +96,7 @@ logbook:
 
 # Includes
 scene: !include_dir_list scenes/
-# automation: !include automations.yaml
+automation: !include automation.yaml
 group: !include groups.yaml
 # switch: !include switches.yaml
 

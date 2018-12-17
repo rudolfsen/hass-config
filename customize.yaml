@@ -9,26 +9,18 @@ light.everspring_ad147_plugin_dimmer_module_level_3_0:
 
 light.fibaro_system_fgd212_dimmer_2_level_19_0:
   friendly_name: Kjellerstue
-  emulated_hue: true
-  emulated_hue_name: "tv room"
 
 switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
   friendly_name: Lampe kjøkkenbenk
-  emulated_hue: true
-  emulated_hue_name: "kitchen lamp"
 
 light.fibaro_system_fgd212_dimmer_2_level_6_0:
   friendly_name: Taklampe
-  emulated_hue: true
-  emulated_hue_name: "bedroom lamp"
 
 binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0:
   friendly_name: Bevegelse garasje
 
 switch.everspring_an180_plugin_onoff_module_switch_8_0:
   friendly_name: Milk lamp
-  emulated_hue: true
-  emulated_hue_name: "milk lamp"
 
 light.tradfri_bulb_e27_ws_opal_980lm:
   friendly_name: Stue 1
@@ -47,28 +39,18 @@ light.tradfri_bulb_e27_opal_1000lm_3:
 
 light.fibaro_system_fgd212_dimmer_2_level_12_0:
   friendly_name: Stue downlights
-  emulated_hue: true
-  emulated_hue_name: "downlights"
 
 light.fibaro_system_fgd212_dimmer_2_level_11_0:
   friendly_name: Stue spisebord
-  emulated_hue: true
-  emulated_hue_name: "dinner table lights"
 
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
   friendly_name: Stue hovedlampe
-  emulated_hue: true
-  emulated_hue_name: "main lamp"
 
 light.fibaro_system_fgd212_dimmer_2_level_13_0:
   friendly_name: Kjøkken downlights
-  emulated_hue: true
-  emulated_hue_name: "kitchen downlights"
 
 light.fibaro_system_fgd212_dimmer_2_level_14_0:
   friendly_name: Gang downlights
-  emulated_hue: true
-  emulated_hue_name: "hall downlights"
 
 binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0:
   friendly_name: Sensor loft
@@ -90,15 +72,9 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_16_3:
 
 light.everspring_ad147_plugin_dimmer_module_level_17_0:
   friendly_name: Lys loft
-  emulated_hue: true
-  emulated_hue_name: "upstairs lights" 
 
 light.fibaro_system_fgd212_dimmer_2_level_18_0:
   friendly_name: Kjellergang
-  emulated_hue: true
-  emulated_hue_name: "downstairs downlights"
 
 switch.stue__varmeovn:
   friendly_name: Stueovn
-  emulated_hue: true
-  emulated_hue_name: "heat"

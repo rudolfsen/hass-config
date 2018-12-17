@@ -29,6 +29,7 @@
       entity_id: scene.alle_av
 
 - alias: Alarm av
+  initial_state: True
   trigger:
     - platform: state
       entity_id: alarm_control_panel.alarm_1
