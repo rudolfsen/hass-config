@@ -65,15 +65,15 @@
 - id: attic_movement_off
   alias: Bevegelse loft
   trigger:
-   - platform: state 
+     platform: state 
      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
      for:
        minutes: 5
      from: 'on'
      to: 'off'
   action:
-   - service: scene.turn_on
-      entity_id: scene.loft_av
+    service: scene.turn_on
+    entity_id: scene.loft_av
 
 - id: basement_movement_on
   alias: Bevegelse kjeller
@@ -82,8 +82,8 @@
      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_2
      to: 'on'
   action:
-   - service: light.turn_on
-     entity_id: light.fibaro_system_fgd212_dimmer_2_level_18
+    service: light.turn_on
+    entity_id: light.fibaro_system_fgd212_dimmer_2_level_18
 
 - id: basement_movement_off
   alias: Bevegelse kjeller
