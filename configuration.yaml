@@ -88,7 +88,10 @@ cloud:
         room: Stue
       scene.apple_tv_off:
         name: Apple TV av
-        room: Stue                                  
+        room: Stue
+      media_player.TV:
+        name: teven
+        room: Stue                                             
 
 http:
   api_password: !secret api_password
@@ -165,7 +168,7 @@ media_player:
     host: 192.168.86.230
     name: TV - kjellerstue
   - platform: samsungtv    
-    name: TV - stue
+    name: TV
     host: 192.168.86.29
     mac: 0c:89:10:ce:be:b4
 
