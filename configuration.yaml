@@ -89,7 +89,7 @@ cloud:
       scene.apple_tv_off:
         name: Apple TV av
         room: Stue
-      media_player.TV:
+      media_player.tv__stue:
         name: teven
         room: Stue                                             
 
@@ -167,8 +167,8 @@ media_player:
   - platform: braviatv
     host: 192.168.86.230
     name: TV - kjellerstue
-  - platform: samsungtv    
-    name: TV
+  - platform: samsungtv   
+    name: TV - stue
     host: 192.168.86.29
     mac: 0c:89:10:ce:be:b4
 

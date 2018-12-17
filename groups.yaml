@@ -35,7 +35,7 @@ media:
     - media_player.spotify
     - media_player.tv__kjellerstue
     - media_player.samsung_tv_remote
-    - media_player.tv__stue
+    - media_player.tv
     - remote.loftet
     - remote.stue
 
