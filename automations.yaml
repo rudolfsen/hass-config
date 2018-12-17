@@ -54,10 +54,9 @@
 - id: attic_movement_on
   alias: Bevegelse loft
   trigger:
-   - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
+   - platform: state
+     entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
      from: 'off'
-     platform: state
-     state: 'on'
      to: 'on'
   action:
    - entity_id: light.everspring_ad147_plugin_dimmer_module_level_4
@@ -66,12 +65,11 @@
 - id: attic_movement_off
   alias: Bevegelse loft
   trigger:
-   - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
+   - platform: state 
+     entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
      for:
        minutes: 15
      from: 'on'
-     platform: state
-     state: 'off'
      to: 'off'
   action:
    - entity_id: light.everspring_ad147_plugin_dimmer_module_level_4
@@ -82,7 +80,7 @@
   trigger:
    - platform: state
      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_2
-     state: 'on'
+     to: 'on'
   action:
    - service: light.turn_on
      entity_id: light.fibaro_system_fgd212_dimmer_2_level_18
@@ -92,7 +90,7 @@
   trigger:
    - platform: state
      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_2
-     state: 'off'
+     to: 'off'
      for:
        minutes: 15
   action:
