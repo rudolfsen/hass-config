@@ -72,7 +72,7 @@ cloud:
         name: Kjokkenhylle
         room: Stue
       scene.stue_film:
-        name: film
+        name: filmlys
         room: Stue
       scene.stue_lys:
         name: fullt lys

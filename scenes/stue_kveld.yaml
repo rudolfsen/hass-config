@@ -11,7 +11,7 @@ entities:
     brightness: 40
   light.fibaro_system_fgd212_dimmer_2_level_5:
     state: on
-    brightness: 40
+    brightness: 20
   light.fibaro_system_fgd212_dimmer_2_level_9:
     state: on
     brightness: 40
