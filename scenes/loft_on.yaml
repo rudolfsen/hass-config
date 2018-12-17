@@ -1,4 +1,4 @@
-name: Loft på
+name: Loft
 entities:
   light.everspring_ad147_plugin_dimmer_module_level_4:
     state: 'on'
