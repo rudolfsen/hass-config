@@ -59,7 +59,7 @@
      from: 'off'
      to: 'on'
   condition:
-   - condition: time
+    condition: time
       after: '16:00:00'
       before: '23:00:00'
   action:
@@ -74,7 +74,7 @@
      from: 'off'
      to: 'on'
   condition:
-   - condition: time
+    condition: time
       after: '06:00:00'
       before: '09:00:00'
   action:
@@ -89,7 +89,7 @@
      from: 'off'
      to: 'on'
   condition:
-   - condition: time
+    condition: time
       after: '09:00:00'
       before: '16:00:00'
   action:
