@@ -21,6 +21,9 @@ homeassistant:
 # Enables the frontend
 frontend:
 
+# Enables ios
+ios:
+
 # Enables configuration UI
 config:
 
@@ -72,7 +75,7 @@ cloud:
         name: Kjokkenhylle
         room: Stue
       scene.stue_film:
-        name: filmlys
+        name: film
         room: Stue
       scene.stue_lys:
         name: fullt lys
