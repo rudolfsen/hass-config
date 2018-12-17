@@ -1,3 +1,4 @@
-- name: Loft av
-  entities:
-    light.everspring_ad147_plugin_dimmer_module_level_4: false
+name: Loft av
+entities:
+  light.everspring_ad147_plugin_dimmer_module_level_4:
+    state: 'off'
