@@ -1,24 +1,22 @@
 name: Stue kveld
 entities:
-  light.fibaro_system_fgd212_dimmer_2_level_12_0:
+  light.fibaro_system_fgd212_dimmer_2_level_7:
     state: on
     brightness: 40
-  light.fibaro_system_fgd212_dimmer_2_level_11_0:
+  light.fibaro_system_fgd212_dimmer_2_level_3:
     state: on
     brightness: 40
-  light.fibaro_system_fgd212_dimmer_2_level_10_0:
+  light.fibaro_system_fgd212_dimmer_2_level_11:
     state: on
     brightness: 40
-  light.fibaro_system_fgd212_dimmer_2_level_13_0:
+  light.fibaro_system_fgd212_dimmer_2_level_5:
     state: on
     brightness: 40
-  light.fibaro_system_fgd212_dimmer_2_level_14_0:
+  light.fibaro_system_fgd212_dimmer_2_level_9:
     state: on
     brightness: 40
-  light.everspring_ad147_plugin_dimmer_module_level_3_0:
+  light.fibaro_system_fgd212_dimmer_2_level_13:
     state: on
     brightness: 40
-  switch.fibaro_system_fgwpef_wall_plug_gen5_switch_2_0:
-    state: on
-  switch.everspring_an180_plugin_onoff_module_switch_8_0:
-    state: on
+  switch.fibaro_system_fgwpef_wall_plug_gen5_switch:
+    state: on 
