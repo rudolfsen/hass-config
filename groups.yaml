@@ -169,7 +169,7 @@ loft:
     - sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_15_1
     - sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_15_3
     - scene.loft_full
-    - scene.loft_kveld  
+    - scene.loft_kveld
     - scene.loft_av
     - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15
     - light.everspring_ad147_plugin_dimmer_module_level_17
