@@ -1,5 +1,8 @@
 light.everspring_ad147_plugin_dimmer_module_level_4:
-  friendly_name: Leselys - Mirjam
+  friendly_name: Lys oppe
+
+light.fibaro_system_fgd212_dimmer_2_level_7:
+  friendly_name: Gang downlights
 
 light.everspring_ad147_plugin_dimmer_module_level_7:
   friendly_name: Leselys - Magnus
@@ -52,7 +55,7 @@ light.fibaro_system_fgd212_dimmer_2_level_13:
 light.fibaro_system_fgd212_dimmer_2_level_14:
   friendly_name: Gang downlights
 
-binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15:
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor:
   friendly_name: Sensor loft
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_15_1:
@@ -61,7 +64,7 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_15_1:
 sensor.fibaro_system_fgms001zw5_motion_sensor_luminance_15_3:
   friendly_name: Lysstyrke loft
 
-binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16:
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_2:
   friendly_name: Sensor kjellergang
 
 sensor.fibaro_system_fgms001zw5_motion_sensor_temperature_16_1:

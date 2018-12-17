@@ -2,7 +2,7 @@
   alias: Bevegelse
   trigger:
    - platform: state
-     entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+     entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9
      from: 'off'
      to: 'on'
   action:
@@ -13,7 +13,7 @@
   alias: Bevegelse slutt
   trigger:
    - platform: state
-     entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9_0
+     entity_id: binary_sensor.everspring_sp103_pir_motion_sensor_sensor_9
      from: 'on'
      to: 'off'
   action:
@@ -54,19 +54,19 @@
 - id: attic_movement_on
   alias: Bevegelse loft
   trigger:
-   - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+   - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
      from: 'off'
      platform: state
      state: 'on'
      to: 'on'
   action:
-   - entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
+   - entity_id: light.everspring_ad147_plugin_dimmer_module_level_4
      service: light.turn_on
 
 - id: attic_movement_off
   alias: Bevegelse loft
   trigger:
-   - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_15_0
+   - entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
      for:
        minutes: 15
      from: 'on'
@@ -74,27 +74,27 @@
      state: 'off'
      to: 'off'
   action:
-   - entity_id: light.everspring_ad147_plugin_dimmer_module_level_17_0
+   - entity_id: light.everspring_ad147_plugin_dimmer_module_level_4
      service: light.turn_off
 
 - id: basement_movement_on
   alias: Bevegelse kjeller
   trigger:
    - platform: state
-     entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+     entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_2
      state: 'on'
   action:
    - service: light.turn_on
-     entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
+     entity_id: light.fibaro_system_fgd212_dimmer_2_level_18
 
 - id: basement_movement_off
   alias: Bevegelse kjeller
   trigger:
    - platform: state
-     entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_16_0
+     entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor_2
      state: 'off'
      for:
        minutes: 15
   action:
    - service: light.turn_off
-     entity_id: light.fibaro_system_fgd212_dimmer_2_level_18_0
+     entity_id: light.fibaro_system_fgd212_dimmer_2_level_18
