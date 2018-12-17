@@ -68,12 +68,12 @@
    - platform: state 
      entity_id: binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
      for:
-       minutes: 15
+       minutes: 5
      from: 'on'
      to: 'off'
   action:
-   - entity_id: light.everspring_ad147_plugin_dimmer_module_level_4
-     service: light.turn_off
+   - service: scene.turn_on
+      entity_id: scene.loft_av
 
 - id: basement_movement_on
   alias: Bevegelse kjeller
