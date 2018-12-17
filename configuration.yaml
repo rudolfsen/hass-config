@@ -167,7 +167,7 @@ media_player:
 remote:
   - platform: harmony
     name: Stue
-    host: 192.168.86.31
+    activity: Watch Apple TV
 
 #emulated_hue:
 #  host_ip: 192.168.86.244
