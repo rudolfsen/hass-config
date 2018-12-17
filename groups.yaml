@@ -2,6 +2,7 @@ default_view:
   view: yes
   icon: mdi:home 
   entities:
+    - remote.stue
     - group.stuelys
     - group.hovedsoverom
     - group.garasjelys
@@ -35,7 +36,7 @@ media:
     - media_player.spotify
     - media_player.tv__kjellerstue
     - media_player.samsung_tv_remote
-    - media_player.tv
+    - media_player.tv__stue
     - remote.loftet
     - remote.stue
 
