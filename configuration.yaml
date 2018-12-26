@@ -1,25 +1,14 @@
 homeassistant:
-  # Name of the location where Home Assistant is running
   name: Home
-  # Location required to calculate the time the sun rises and sets
-  #latitude: 63.4167
-  #longitude: 10.4167
   latitude: !secret home_latitude
   longitude: !secret home_longitude
-  # Impacts weather/sunrise data (altitude above sea level in meters)
+  
   elevation: !secret home_elevation
-  # metric for Metric, imperial for Imperial
   unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Oslo
-  #Tilpasse
+
   customize: !include customize.yaml
-
-# Show links to resources in log and frontend
-# introduction:
-
-# Enables the frontend
-frontend:
+  frontend:
 
 # Enables ios
 ios:
@@ -49,9 +38,12 @@ cloud:
         - light.fibaro_system_fgd212_dimmer_2_level_11
         - light.fibaro_system_fgd212_dimmer_2_level_13
         - switch.fibaro_system_fgwpef_wall_plug_gen5_switch
+        - light.everspring_ad147_plugin_dimmer_module_level_4
         - scene.stue_film
         - scene.stue_lys
         - scene.stue_kveld
+        - switch.lotta
+        - switch.lotta_taklampe        
     entity_config:
       light.fibaro_system_fgd212_dimmer_2_level_7:
         name: Downlights
@@ -91,51 +83,43 @@ cloud:
         room: Stue
       media_player.tv__stue:
         name: teven
-        room: Stue                                             
+        room: Stue
+      light.everspring_ad147_plugin_dimmer_module_level_4:
+        name: Loftsgang
+        room: Loft
+      switch.lotta:
+        name: Kulelys
+        room: Lotta
+      switch.lotta_taklampe:
+        name: Taklampe
+        room: Lotta
 
 http:
   api_password: !secret api_password
   ssl_certificate: !secret ssl_cert
   ssl_key: !secret ssl_key
-  #trusted_networks:
-  # - 127.0.0.1
-  # - 192.168.0.0/24
-  # Uncomment this if you are using SSL or running in Docker etc
   base_url: !secret base_url
 
-# Checks for available updates
 updater:
-
-# Discover some devices automatically
 discovery:
-
-# Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
-
-# Enables support for tracking state changes over time.
 history:
-
-# View all events in a logbook
 logbook:
 
-# Includes
+
 scene: !include_dir_list scenes/
 automation: !include automations.yaml
 group: !include groups.yaml
 # switch: !include switches.yaml
 
-# Track the sun
 sun:
 
-# Weather Prediction
 sensor:
   platform: yr
 
-# Text to speech
 tts:
   platform: google
 
-# Z-Wave dongle
 zwave:
   usb_path: /dev/ttyACM0
   debug: True
