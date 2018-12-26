@@ -43,7 +43,7 @@ cloud:
         - scene.stue_lys
         - scene.stue_kveld
         - switch.lotta
-        - switch.lotta_taklampe        
+        - switch.lotta_taklampe
     entity_config:
       light.fibaro_system_fgd212_dimmer_2_level_7:
         name: Downlights
