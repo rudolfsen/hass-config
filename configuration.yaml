@@ -55,6 +55,8 @@ cloud:
         - scene.stue_kveld
         - switch.lotta
         - switch.lotta_taklampe
+        - switch.julestjerne
+        - switch.juletre
     entity_config:
       light.fibaro_system_fgd212_dimmer_2_level_7:
         name: Downlights
@@ -103,7 +105,13 @@ cloud:
         room: Lotta
       switch.lotta_taklampe:
         name: Taklampe
-        room: Lotta                                       
+        room: Lotta
+      switch.julestjerne:
+        name: Julestjerne
+        room: Stue
+      switch.juletre:
+        name: Juletre
+        room: Stue
 
 http:
   api_password: !secret api_password
