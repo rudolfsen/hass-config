@@ -1,5 +1,4 @@
 name: Loft
 entities:
-  light.everspring_ad147_plugin_dimmer_module_level_4:
-    state: 'on'
-    brightness: 255 
+  switch.loftsgang:
+    state: 'on' 

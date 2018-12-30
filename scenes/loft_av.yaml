@@ -1,4 +1,4 @@
 name: Loft av
 entities:
-  light.everspring_ad147_plugin_dimmer_module_level_4:
+  switch.loftsgang:
     state: 'off'

@@ -62,6 +62,9 @@ verisure:
     - switch.kontor
     - switch.loft
     - switch.lotta
+    - switch.loftsgang
+    - switch.juletre
+    - switch.julestjerne
     - switch.lotta_taklampe
     - switch.noah__bordlampe
     - switch.noah__lader

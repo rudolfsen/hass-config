@@ -1,5 +1,4 @@
 name: Loft kveld
 entities:
-  light.everspring_ad147_plugin_dimmer_module_level_4:
+  switch.loftsgang:
     state: 'on'
-    brightness: 5 
